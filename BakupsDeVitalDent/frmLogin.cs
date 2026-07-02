@@ -8,11 +8,11 @@ using System.Windows.Forms;
 
 namespace BakupsDeVitalDent
 {
-	public partial class frmLogin : Form
-	{
-		public frmLogin()
-		{
-			InitializeComponent();
-		}
-	}
+    public partial class frmLogin : Form
+    {
+        public frmLogin()
+        {
+            InitializeComponent();
+        }
+    }
 }
