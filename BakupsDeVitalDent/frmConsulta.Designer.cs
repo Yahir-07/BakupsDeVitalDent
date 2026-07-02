@@ -28,113 +28,113 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			pictureBox1 = new PictureBox();
-			button1 = new Button();
-			textBox1 = new TextBox();
-			label1 = new Label();
-			dataGridView1 = new DataGridView();
-			button2 = new Button();
-			button3 = new Button();
-			((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-			((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+			pcbLupa = new PictureBox();
+			btnBuscar = new Button();
+			txtBuscarPacientes = new TextBox();
+			lblConsulta = new Label();
+			dgvPacientes = new DataGridView();
+			this.btnSiguiente = new Button();
+			btnAnterior = new Button();
+			((System.ComponentModel.ISupportInitialize)pcbLupa).BeginInit();
+			((System.ComponentModel.ISupportInitialize)dgvPacientes).BeginInit();
 			SuspendLayout();
 			// 
-			// pictureBox1
+			// pcbLupa
 			// 
-			pictureBox1.Image = Properties.Resources.WhatsApp_Image_2026_06_23_at_2_04_17_PM__1_;
-			pictureBox1.Location = new Point(163, 69);
-			pictureBox1.Name = "pictureBox1";
-			pictureBox1.Size = new Size(24, 25);
-			pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-			pictureBox1.TabIndex = 45;
-			pictureBox1.TabStop = false;
+			pcbLupa.Image = Properties.Resources.WhatsApp_Image_2026_06_23_at_2_04_17_PM__1_;
+			pcbLupa.Location = new Point(163, 69);
+			pcbLupa.Name = "pcbLupa";
+			pcbLupa.Size = new Size(24, 25);
+			pcbLupa.SizeMode = PictureBoxSizeMode.StretchImage;
+			pcbLupa.TabIndex = 45;
+			pcbLupa.TabStop = false;
 			// 
-			// button1
+			// btnBuscar
 			// 
-			button1.BackColor = Color.FromArgb(244, 249, 252);
-			button1.Location = new Point(916, 64);
-			button1.Name = "button1";
-			button1.Size = new Size(150, 30);
-			button1.TabIndex = 44;
-			button1.Text = "Buscar";
-			button1.UseVisualStyleBackColor = false;
+			btnBuscar.BackColor = Color.FromArgb(244, 249, 252);
+			btnBuscar.Location = new Point(916, 64);
+			btnBuscar.Name = "btnBuscar";
+			btnBuscar.Size = new Size(150, 30);
+			btnBuscar.TabIndex = 44;
+			btnBuscar.Text = "Buscar";
+			btnBuscar.UseVisualStyleBackColor = false;
 			// 
-			// textBox1
+			// txtBuscarPacientes
 			// 
-			textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			textBox1.Location = new Point(193, 69);
-			textBox1.Multiline = true;
-			textBox1.Name = "textBox1";
-			textBox1.PlaceholderText = "Buscar Paciente";
-			textBox1.Size = new Size(717, 25);
-			textBox1.TabIndex = 43;
+			txtBuscarPacientes.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			txtBuscarPacientes.Location = new Point(193, 69);
+			txtBuscarPacientes.Multiline = true;
+			txtBuscarPacientes.Name = "txtBuscarPacientes";
+			txtBuscarPacientes.PlaceholderText = "Buscar Paciente";
+			txtBuscarPacientes.Size = new Size(717, 25);
+			txtBuscarPacientes.TabIndex = 43;
 			// 
-			// label1
+			// lblConsulta
 			// 
-			label1.AutoSize = true;
-			label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-			label1.Location = new Point(12, 9);
-			label1.Name = "label1";
-			label1.Size = new Size(99, 30);
-			label1.TabIndex = 46;
-			label1.Text = "Consulta";
+			lblConsulta.AutoSize = true;
+			lblConsulta.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+			lblConsulta.Location = new Point(12, 9);
+			lblConsulta.Name = "lblConsulta";
+			lblConsulta.Size = new Size(99, 30);
+			lblConsulta.TabIndex = 46;
+			lblConsulta.Text = "Consulta";
 			// 
-			// dataGridView1
+			// dgvPacientes
 			// 
-			dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			dataGridView1.Location = new Point(267, 122);
-			dataGridView1.Name = "dataGridView1";
-			dataGridView1.Size = new Size(670, 380);
-			dataGridView1.TabIndex = 47;
+			dgvPacientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+			dgvPacientes.Location = new Point(267, 122);
+			dgvPacientes.Name = "dgvPacientes";
+			dgvPacientes.Size = new Size(670, 380);
+			dgvPacientes.TabIndex = 47;
 			// 
-			// button2
+			// btnSiguiente
 			// 
-			button2.BackColor = Color.FromArgb(244, 249, 252);
-			button2.Location = new Point(787, 520);
-			button2.Name = "button2";
-			button2.Size = new Size(150, 30);
-			button2.TabIndex = 52;
-			button2.Text = "Siguiente";
-			button2.UseVisualStyleBackColor = false;
+			this.btnSiguiente.BackColor = Color.FromArgb(244, 249, 252);
+			this.btnSiguiente.Location = new Point(787, 520);
+			this.btnSiguiente.Name = "btnSiguiente";
+			this.btnSiguiente.Size = new Size(150, 30);
+			this.btnSiguiente.TabIndex = 52;
+			this.btnSiguiente.Text = "Siguiente";
+			this.btnSiguiente.UseVisualStyleBackColor = false;
 			// 
-			// button3
+			// btnAnterior
 			// 
-			button3.BackColor = Color.FromArgb(244, 249, 252);
-			button3.Location = new Point(631, 520);
-			button3.Name = "button3";
-			button3.Size = new Size(150, 30);
-			button3.TabIndex = 51;
-			button3.Text = "Anterior";
-			button3.UseVisualStyleBackColor = false;
+			btnAnterior.BackColor = Color.FromArgb(244, 249, 252);
+			btnAnterior.Location = new Point(631, 520);
+			btnAnterior.Name = "btnAnterior";
+			btnAnterior.Size = new Size(150, 30);
+			btnAnterior.TabIndex = 51;
+			btnAnterior.Text = "Anterior";
+			btnAnterior.UseVisualStyleBackColor = false;
 			// 
 			// frmConsulta
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(1195, 612);
-			Controls.Add(button2);
-			Controls.Add(button3);
-			Controls.Add(dataGridView1);
-			Controls.Add(label1);
-			Controls.Add(pictureBox1);
-			Controls.Add(button1);
-			Controls.Add(textBox1);
+			Controls.Add(this.btnSiguiente);
+			Controls.Add(btnAnterior);
+			Controls.Add(dgvPacientes);
+			Controls.Add(lblConsulta);
+			Controls.Add(pcbLupa);
+			Controls.Add(btnBuscar);
+			Controls.Add(txtBuscarPacientes);
 			Name = "frmConsulta";
 			Text = "frmConsulta";
-			((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-			((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+			((System.ComponentModel.ISupportInitialize)pcbLupa).EndInit();
+			((System.ComponentModel.ISupportInitialize)dgvPacientes).EndInit();
 			ResumeLayout(false);
 			PerformLayout();
 		}
 
 		#endregion
 
-		private PictureBox pictureBox1;
-		private Button button1;
-		private TextBox textBox1;
-		private Label label1;
-		private DataGridView dataGridView1;
-		private Button button2;
-		private Button button3;
+		private PictureBox pcbLupa;
+		private Button btnBuscar;
+		private TextBox txtBuscarPacientes;
+		private Label lblConsulta;
+		private DataGridView dgvPacientes;
+		private Button btnSiguiente;
+		private Button btnAnterior;
 	}
 }
