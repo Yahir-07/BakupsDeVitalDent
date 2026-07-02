@@ -28,124 +28,124 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			pictureBox1 = new PictureBox();
-			pictureBox2 = new PictureBox();
-			button1 = new Button();
-			button2 = new Button();
-			button3 = new Button();
-			button4 = new Button();
-			button5 = new Button();
-			panel1 = new Panel();
-			((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-			((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+			ptbSuperior = new PictureBox();
+			ptbMenu = new PictureBox();
+			btnInicio = new Button();
+			btnRegistroPacientes = new Button();
+			btnAgendaCitas = new Button();
+			btnConsulta = new Button();
+			btnHistorialMedico = new Button();
+			pnlContenido = new Panel();
+			((System.ComponentModel.ISupportInitialize)ptbSuperior).BeginInit();
+			((System.ComponentModel.ISupportInitialize)ptbMenu).BeginInit();
 			SuspendLayout();
 			// 
-			// pictureBox1
+			// ptbSuperior
 			// 
-			pictureBox1.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_53_PM__1_;
-			pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-			pictureBox1.Location = new Point(-1, -1);
-			pictureBox1.Name = "pictureBox1";
-			pictureBox1.Size = new Size(1370, 105);
-			pictureBox1.TabIndex = 0;
-			pictureBox1.TabStop = false;
+			ptbSuperior.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_53_PM__1_;
+			ptbSuperior.BackgroundImageLayout = ImageLayout.Stretch;
+			ptbSuperior.Location = new Point(-1, -1);
+			ptbSuperior.Name = "ptbSuperior";
+			ptbSuperior.Size = new Size(1370, 105);
+			ptbSuperior.TabIndex = 0;
+			ptbSuperior.TabStop = false;
 			// 
-			// pictureBox2
+			// ptbMenu
 			// 
-			pictureBox2.Image = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_53_PM;
-			pictureBox2.Location = new Point(-1, 101);
-			pictureBox2.Name = "pictureBox2";
-			pictureBox2.Size = new Size(163, 648);
-			pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-			pictureBox2.TabIndex = 1;
-			pictureBox2.TabStop = false;
+			ptbMenu.Image = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_53_PM;
+			ptbMenu.Location = new Point(-1, 101);
+			ptbMenu.Name = "ptbMenu";
+			ptbMenu.Size = new Size(163, 648);
+			ptbMenu.SizeMode = PictureBoxSizeMode.StretchImage;
+			ptbMenu.TabIndex = 1;
+			ptbMenu.TabStop = false;
 			// 
-			// button1
+			// btnInicio
 			// 
-			button1.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM__1_;
-			button1.BackgroundImageLayout = ImageLayout.Stretch;
-			button1.Location = new Point(12, 119);
-			button1.Name = "button1";
-			button1.Size = new Size(123, 76);
-			button1.TabIndex = 2;
-			button1.UseVisualStyleBackColor = true;
+			btnInicio.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM__1_;
+			btnInicio.BackgroundImageLayout = ImageLayout.Stretch;
+			btnInicio.Location = new Point(12, 119);
+			btnInicio.Name = "btnInicio";
+			btnInicio.Size = new Size(123, 76);
+			btnInicio.TabIndex = 2;
+			btnInicio.UseVisualStyleBackColor = true;
 			// 
-			// button2
+			// btnRegistroPacientes
 			// 
-			button2.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM;
-			button2.BackgroundImageLayout = ImageLayout.Stretch;
-			button2.Location = new Point(12, 201);
-			button2.Name = "button2";
-			button2.Size = new Size(123, 76);
-			button2.TabIndex = 3;
-			button2.UseVisualStyleBackColor = true;
+			btnRegistroPacientes.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM;
+			btnRegistroPacientes.BackgroundImageLayout = ImageLayout.Stretch;
+			btnRegistroPacientes.Location = new Point(12, 201);
+			btnRegistroPacientes.Name = "btnRegistroPacientes";
+			btnRegistroPacientes.Size = new Size(123, 76);
+			btnRegistroPacientes.TabIndex = 3;
+			btnRegistroPacientes.UseVisualStyleBackColor = true;
 			// 
-			// button3
+			// btnAgendaCitas
 			// 
-			button3.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM__2_;
-			button3.BackgroundImageLayout = ImageLayout.Stretch;
-			button3.Location = new Point(12, 283);
-			button3.Name = "button3";
-			button3.Size = new Size(123, 76);
-			button3.TabIndex = 4;
-			button3.UseVisualStyleBackColor = true;
+			btnAgendaCitas.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM__2_;
+			btnAgendaCitas.BackgroundImageLayout = ImageLayout.Stretch;
+			btnAgendaCitas.Location = new Point(12, 283);
+			btnAgendaCitas.Name = "btnAgendaCitas";
+			btnAgendaCitas.Size = new Size(123, 76);
+			btnAgendaCitas.TabIndex = 4;
+			btnAgendaCitas.UseVisualStyleBackColor = true;
 			// 
-			// button4
+			// btnConsulta
 			// 
-			button4.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM__4_;
-			button4.BackgroundImageLayout = ImageLayout.Stretch;
-			button4.Location = new Point(12, 365);
-			button4.Name = "button4";
-			button4.Size = new Size(123, 76);
-			button4.TabIndex = 5;
-			button4.UseVisualStyleBackColor = true;
+			btnConsulta.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM__4_;
+			btnConsulta.BackgroundImageLayout = ImageLayout.Stretch;
+			btnConsulta.Location = new Point(12, 365);
+			btnConsulta.Name = "btnConsulta";
+			btnConsulta.Size = new Size(123, 76);
+			btnConsulta.TabIndex = 5;
+			btnConsulta.UseVisualStyleBackColor = true;
 			// 
-			// button5
+			// btnHistorialMedico
 			// 
-			button5.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM__3_;
-			button5.BackgroundImageLayout = ImageLayout.Stretch;
-			button5.Location = new Point(12, 447);
-			button5.Name = "button5";
-			button5.Size = new Size(123, 76);
-			button5.TabIndex = 6;
-			button5.UseVisualStyleBackColor = true;
+			btnHistorialMedico.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM__3_;
+			btnHistorialMedico.BackgroundImageLayout = ImageLayout.Stretch;
+			btnHistorialMedico.Location = new Point(12, 447);
+			btnHistorialMedico.Name = "btnHistorialMedico";
+			btnHistorialMedico.Size = new Size(123, 76);
+			btnHistorialMedico.TabIndex = 6;
+			btnHistorialMedico.UseVisualStyleBackColor = true;
 			// 
-			// panel1
+			// pnlContenido
 			// 
-			panel1.Location = new Point(158, 101);
-			panel1.Name = "panel1";
-			panel1.Size = new Size(1211, 651);
-			panel1.TabIndex = 7;
+			pnlContenido.Location = new Point(158, 101);
+			pnlContenido.Name = "pnlContenido";
+			pnlContenido.Size = new Size(1211, 651);
+			pnlContenido.TabIndex = 7;
 			// 
 			// frmInicio
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(1370, 749);
-			Controls.Add(panel1);
-			Controls.Add(button5);
-			Controls.Add(button4);
-			Controls.Add(button3);
-			Controls.Add(button2);
-			Controls.Add(button1);
-			Controls.Add(pictureBox2);
-			Controls.Add(pictureBox1);
+			Controls.Add(pnlContenido);
+			Controls.Add(btnHistorialMedico);
+			Controls.Add(btnConsulta);
+			Controls.Add(btnAgendaCitas);
+			Controls.Add(btnRegistroPacientes);
+			Controls.Add(btnInicio);
+			Controls.Add(ptbMenu);
+			Controls.Add(ptbSuperior);
 			Name = "frmInicio";
-			Text = "Form1";
-			((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-			((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+			Text = "frmInicio";
+			((System.ComponentModel.ISupportInitialize)ptbSuperior).EndInit();
+			((System.ComponentModel.ISupportInitialize)ptbMenu).EndInit();
 			ResumeLayout(false);
 		}
 
 		#endregion
 
-		private PictureBox pictureBox1;
-		private PictureBox pictureBox2;
-		private Button button1;
-		private Button button2;
-		private Button button3;
-		private Button button4;
-		private Button button5;
-		private Panel panel1;
+		private PictureBox ptbSuperior;
+		private PictureBox ptbMenu;
+		private Button btnInicio;
+		private Button btnRegistroPacientes;
+		private Button btnAgendaCitas;
+		private Button btnConsulta;
+		private Button btnHistorialMedico;
+		private Panel pnlContenido;
 	}
 }

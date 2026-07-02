@@ -43,11 +43,11 @@
 			lblTratamiento = new Label();
 			txtTratamiento = new TextBox();
 			lblMedicameto = new Label();
-			textBox7 = new TextBox();
-			label8 = new Label();
-			textBox8 = new TextBox();
-			button2 = new Button();
-			button3 = new Button();
+			txtMedicamento = new TextBox();
+			lblObservaciones = new Label();
+			txtObservaciones = new TextBox();
+			btnDescargar = new Button();
+			btnLimpiar = new Button();
 			((System.ComponentModel.ISupportInitialize)ptbLupa).BeginInit();
 			SuspendLayout();
 			// 
@@ -191,63 +191,63 @@
 			lblMedicameto.TabIndex = 62;
 			lblMedicameto.Text = "Medicamento";
 			// 
-			// textBox7
+			// txtMedicamento
 			// 
-			textBox7.Location = new Point(227, 312);
-			textBox7.Multiline = true;
-			textBox7.Name = "textBox7";
-			textBox7.Size = new Size(717, 20);
-			textBox7.TabIndex = 61;
+			txtMedicamento.Location = new Point(227, 312);
+			txtMedicamento.Multiline = true;
+			txtMedicamento.Name = "txtMedicamento";
+			txtMedicamento.Size = new Size(717, 20);
+			txtMedicamento.TabIndex = 61;
 			// 
-			// label8
+			// lblObservaciones
 			// 
-			label8.AutoSize = true;
-			label8.Font = new Font("Segoe UI", 11.25F);
-			label8.Location = new Point(83, 352);
-			label8.Name = "label8";
-			label8.Size = new Size(105, 20);
-			label8.TabIndex = 64;
-			label8.Text = "Observaciones";
+			lblObservaciones.AutoSize = true;
+			lblObservaciones.Font = new Font("Segoe UI", 11.25F);
+			lblObservaciones.Location = new Point(83, 352);
+			lblObservaciones.Name = "lblObservaciones";
+			lblObservaciones.Size = new Size(105, 20);
+			lblObservaciones.TabIndex = 64;
+			lblObservaciones.Text = "Observaciones";
 			// 
-			// textBox8
+			// txtObservaciones
 			// 
-			textBox8.Location = new Point(227, 353);
-			textBox8.Multiline = true;
-			textBox8.Name = "textBox8";
-			textBox8.Size = new Size(755, 187);
-			textBox8.TabIndex = 63;
+			txtObservaciones.Location = new Point(227, 353);
+			txtObservaciones.Multiline = true;
+			txtObservaciones.Name = "txtObservaciones";
+			txtObservaciones.Size = new Size(755, 187);
+			txtObservaciones.TabIndex = 63;
 			// 
-			// button2
+			// btnDescargar
 			// 
-			button2.BackColor = Color.FromArgb(255, 205, 210);
-			button2.Location = new Point(832, 570);
-			button2.Name = "button2";
-			button2.Size = new Size(150, 30);
-			button2.TabIndex = 66;
-			button2.Text = "Limpiar";
-			button2.UseVisualStyleBackColor = false;
+			btnDescargar.BackColor = Color.FromArgb(255, 205, 210);
+			btnDescargar.Location = new Point(832, 570);
+			btnDescargar.Name = "btnDescargar";
+			btnDescargar.Size = new Size(150, 30);
+			btnDescargar.TabIndex = 66;
+			btnDescargar.Text = "Limpiar";
+			btnDescargar.UseVisualStyleBackColor = false;
 			// 
-			// button3
+			// btnLimpiar
 			// 
-			button3.BackColor = Color.FromArgb(244, 249, 252);
-			button3.Location = new Point(676, 570);
-			button3.Name = "button3";
-			button3.Size = new Size(150, 30);
-			button3.TabIndex = 65;
-			button3.Text = "Descargar ";
-			button3.UseVisualStyleBackColor = false;
+			btnLimpiar.BackColor = Color.FromArgb(244, 249, 252);
+			btnLimpiar.Location = new Point(676, 570);
+			btnLimpiar.Name = "btnLimpiar";
+			btnLimpiar.Size = new Size(150, 30);
+			btnLimpiar.TabIndex = 65;
+			btnLimpiar.Text = "Descargar ";
+			btnLimpiar.UseVisualStyleBackColor = false;
 			// 
 			// frmHistorialMedico
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(1195, 612);
-			Controls.Add(button2);
-			Controls.Add(button3);
-			Controls.Add(label8);
-			Controls.Add(textBox8);
+			Controls.Add(btnDescargar);
+			Controls.Add(btnLimpiar);
+			Controls.Add(lblObservaciones);
+			Controls.Add(txtObservaciones);
 			Controls.Add(lblMedicameto);
-			Controls.Add(textBox7);
+			Controls.Add(txtMedicamento);
 			Controls.Add(lblTratamiento);
 			Controls.Add(txtTratamiento);
 			Controls.Add(lblDiagnostico);
@@ -286,10 +286,10 @@
 		private Label lblTratamiento;
 		private TextBox txtTratamiento;
 		private Label lblMedicameto;
-		private TextBox textBox7;
-		private Label label8;
-		private TextBox textBox8;
-		private Button button2;
-		private Button button3;
+		private TextBox txtMedicamento;
+		private Label lblObservaciones;
+		private TextBox txtObservaciones;
+		private Button btnDescargar;
+		private Button btnLimpiar;
 	}
 }

@@ -28,359 +28,359 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			textBox1 = new TextBox();
-			label1 = new Label();
-			label2 = new Label();
-			label3 = new Label();
-			label4 = new Label();
-			label5 = new Label();
-			label6 = new Label();
-			label7 = new Label();
-			label8 = new Label();
-			label9 = new Label();
-			label10 = new Label();
-			label11 = new Label();
-			label12 = new Label();
-			label13 = new Label();
-			label14 = new Label();
-			textBox2 = new TextBox();
-			textBox3 = new TextBox();
-			textBox4 = new TextBox();
-			textBox6 = new TextBox();
-			textBox7 = new TextBox();
-			textBox9 = new TextBox();
-			textBox10 = new TextBox();
-			textBox11 = new TextBox();
-			textBox12 = new TextBox();
-			textBox13 = new TextBox();
-			label15 = new Label();
-			comboBox1 = new ComboBox();
-			dateTimePicker1 = new DateTimePicker();
-			comboBox2 = new ComboBox();
-			button1 = new Button();
-			button2 = new Button();
+			txtNombre = new TextBox();
+			lblRegistroPacientes = new Label();
+			lblNombre = new Label();
+			lblApellidoPaterno = new Label();
+			lblApellidoMaterno = new Label();
+			lblEdad = new Label();
+			lblFechaNacimiento = new Label();
+			lblTelefono = new Label();
+			lblCorreoElectronico = new Label();
+			lblTipoSangre = new Label();
+			lblMunicipio = new Label();
+			lblCodigoPostal = new Label();
+			lblLocalidad = new Label();
+			lblColonia = new Label();
+			lblCalle = new Label();
+			txtApellidoPaterno = new TextBox();
+			txtApellidoMaterno = new TextBox();
+			txtEdad = new TextBox();
+			txtTelefono = new TextBox();
+			txtCorreoElectronico = new TextBox();
+			txtMunicipio = new TextBox();
+			txtCodigoPostal = new TextBox();
+			txtLocalidad = new TextBox();
+			txtColonia = new TextBox();
+			txtCalle = new TextBox();
+			lblGenero = new Label();
+			cmbGenero = new ComboBox();
+			dtpFechaNacimiento = new DateTimePicker();
+			txtTipoSangre = new ComboBox();
+			btnGuardar = new Button();
+			btnCancelar = new Button();
 			SuspendLayout();
 			// 
-			// textBox1
+			// txtNombre
 			// 
-			textBox1.Location = new Point(263, 66);
-			textBox1.Multiline = true;
-			textBox1.Name = "textBox1";
-			textBox1.Size = new Size(717, 20);
-			textBox1.TabIndex = 0;
+			txtNombre.Location = new Point(263, 66);
+			txtNombre.Multiline = true;
+			txtNombre.Name = "txtNombre";
+			txtNombre.Size = new Size(717, 20);
+			txtNombre.TabIndex = 0;
 			// 
-			// label1
+			// lblRegistroPacientes
 			// 
-			label1.AutoSize = true;
-			label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-			label1.Location = new Point(12, 9);
-			label1.Name = "label1";
-			label1.Size = new Size(221, 30);
-			label1.TabIndex = 9;
-			label1.Text = "Registro de Pacientes";
+			lblRegistroPacientes.AutoSize = true;
+			lblRegistroPacientes.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+			lblRegistroPacientes.Location = new Point(12, 9);
+			lblRegistroPacientes.Name = "lblRegistroPacientes";
+			lblRegistroPacientes.Size = new Size(221, 30);
+			lblRegistroPacientes.TabIndex = 9;
+			lblRegistroPacientes.Text = "Registro de Pacientes";
 			// 
-			// label2
+			// lblNombre
 			// 
-			label2.AutoSize = true;
-			label2.Font = new Font("Segoe UI", 11.25F);
-			label2.Location = new Point(111, 74);
-			label2.Name = "label2";
-			label2.Size = new Size(64, 20);
-			label2.TabIndex = 10;
-			label2.Text = "Nombre";
+			lblNombre.AutoSize = true;
+			lblNombre.Font = new Font("Segoe UI", 11.25F);
+			lblNombre.Location = new Point(111, 74);
+			lblNombre.Name = "lblNombre";
+			lblNombre.Size = new Size(64, 20);
+			lblNombre.TabIndex = 10;
+			lblNombre.Text = "Nombre";
 			// 
-			// label3
+			// lblApellidoPaterno
 			// 
-			label3.AutoSize = true;
-			label3.Font = new Font("Segoe UI", 11.25F);
-			label3.Location = new Point(111, 101);
-			label3.Name = "label3";
-			label3.Size = new Size(122, 20);
-			label3.TabIndex = 11;
-			label3.Text = "Apellido paterno";
+			lblApellidoPaterno.AutoSize = true;
+			lblApellidoPaterno.Font = new Font("Segoe UI", 11.25F);
+			lblApellidoPaterno.Location = new Point(111, 101);
+			lblApellidoPaterno.Name = "lblApellidoPaterno";
+			lblApellidoPaterno.Size = new Size(122, 20);
+			lblApellidoPaterno.TabIndex = 11;
+			lblApellidoPaterno.Text = "Apellido paterno";
 			// 
-			// label4
+			// lblApellidoMaterno
 			// 
-			label4.AutoSize = true;
-			label4.Font = new Font("Segoe UI", 11.25F);
-			label4.Location = new Point(111, 135);
-			label4.Name = "label4";
-			label4.Size = new Size(126, 20);
-			label4.TabIndex = 12;
-			label4.Text = "Apellido materno";
+			lblApellidoMaterno.AutoSize = true;
+			lblApellidoMaterno.Font = new Font("Segoe UI", 11.25F);
+			lblApellidoMaterno.Location = new Point(111, 135);
+			lblApellidoMaterno.Name = "lblApellidoMaterno";
+			lblApellidoMaterno.Size = new Size(126, 20);
+			lblApellidoMaterno.TabIndex = 12;
+			lblApellidoMaterno.Text = "Apellido materno";
 			// 
-			// label5
+			// lblEdad
 			// 
-			label5.AutoSize = true;
-			label5.Font = new Font("Segoe UI", 11.25F);
-			label5.Location = new Point(111, 165);
-			label5.Name = "label5";
-			label5.Size = new Size(43, 20);
-			label5.TabIndex = 13;
-			label5.Text = "Edad";
+			lblEdad.AutoSize = true;
+			lblEdad.Font = new Font("Segoe UI", 11.25F);
+			lblEdad.Location = new Point(111, 165);
+			lblEdad.Name = "lblEdad";
+			lblEdad.Size = new Size(43, 20);
+			lblEdad.TabIndex = 13;
+			lblEdad.Text = "Edad";
 			// 
-			// label6
+			// lblFechaNacimiento
 			// 
-			label6.AutoSize = true;
-			label6.Font = new Font("Segoe UI", 11.25F);
-			label6.Location = new Point(111, 203);
-			label6.Name = "label6";
-			label6.Size = new Size(146, 20);
-			label6.TabIndex = 14;
-			label6.Text = "Fecha de nacimiento";
+			lblFechaNacimiento.AutoSize = true;
+			lblFechaNacimiento.Font = new Font("Segoe UI", 11.25F);
+			lblFechaNacimiento.Location = new Point(111, 203);
+			lblFechaNacimiento.Name = "lblFechaNacimiento";
+			lblFechaNacimiento.Size = new Size(146, 20);
+			lblFechaNacimiento.TabIndex = 14;
+			lblFechaNacimiento.Text = "Fecha de nacimiento";
 			// 
-			// label7
+			// lblTelefono
 			// 
-			label7.AutoSize = true;
-			label7.Font = new Font("Segoe UI", 11.25F);
-			label7.Location = new Point(111, 232);
-			label7.Name = "label7";
-			label7.Size = new Size(67, 20);
-			label7.TabIndex = 15;
-			label7.Text = "Telefono";
+			lblTelefono.AutoSize = true;
+			lblTelefono.Font = new Font("Segoe UI", 11.25F);
+			lblTelefono.Location = new Point(111, 232);
+			lblTelefono.Name = "lblTelefono";
+			lblTelefono.Size = new Size(67, 20);
+			lblTelefono.TabIndex = 15;
+			lblTelefono.Text = "Telefono";
 			// 
-			// label8
+			// lblCorreoElectronico
 			// 
-			label8.AutoSize = true;
-			label8.Font = new Font("Segoe UI", 11.25F);
-			label8.Location = new Point(111, 268);
-			label8.Name = "label8";
-			label8.Size = new Size(132, 20);
-			label8.TabIndex = 16;
-			label8.Text = "Correo electronico";
+			lblCorreoElectronico.AutoSize = true;
+			lblCorreoElectronico.Font = new Font("Segoe UI", 11.25F);
+			lblCorreoElectronico.Location = new Point(111, 268);
+			lblCorreoElectronico.Name = "lblCorreoElectronico";
+			lblCorreoElectronico.Size = new Size(132, 20);
+			lblCorreoElectronico.TabIndex = 16;
+			lblCorreoElectronico.Text = "Correo electronico";
 			// 
-			// label9
+			// lblTipoSangre
 			// 
-			label9.AutoSize = true;
-			label9.Font = new Font("Segoe UI", 11.25F);
-			label9.Location = new Point(111, 302);
-			label9.Name = "label9";
-			label9.Size = new Size(108, 20);
-			label9.TabIndex = 17;
-			label9.Text = "Tipo de sangre";
+			lblTipoSangre.AutoSize = true;
+			lblTipoSangre.Font = new Font("Segoe UI", 11.25F);
+			lblTipoSangre.Location = new Point(111, 302);
+			lblTipoSangre.Name = "lblTipoSangre";
+			lblTipoSangre.Size = new Size(108, 20);
+			lblTipoSangre.TabIndex = 17;
+			lblTipoSangre.Text = "Tipo de sangre";
 			// 
-			// label10
+			// lblMunicipio
 			// 
-			label10.AutoSize = true;
-			label10.Font = new Font("Segoe UI", 11.25F);
-			label10.Location = new Point(111, 342);
-			label10.Name = "label10";
-			label10.Size = new Size(75, 20);
-			label10.TabIndex = 18;
-			label10.Text = "Municipio";
+			lblMunicipio.AutoSize = true;
+			lblMunicipio.Font = new Font("Segoe UI", 11.25F);
+			lblMunicipio.Location = new Point(111, 342);
+			lblMunicipio.Name = "lblMunicipio";
+			lblMunicipio.Size = new Size(75, 20);
+			lblMunicipio.TabIndex = 18;
+			lblMunicipio.Text = "Municipio";
 			// 
-			// label11
+			// lblCodigoPostal
 			// 
-			label11.AutoSize = true;
-			label11.Font = new Font("Segoe UI", 11.25F);
-			label11.Location = new Point(111, 377);
-			label11.Name = "label11";
-			label11.Size = new Size(101, 20);
-			label11.TabIndex = 19;
-			label11.Text = "Codigo Postal";
+			lblCodigoPostal.AutoSize = true;
+			lblCodigoPostal.Font = new Font("Segoe UI", 11.25F);
+			lblCodigoPostal.Location = new Point(111, 377);
+			lblCodigoPostal.Name = "lblCodigoPostal";
+			lblCodigoPostal.Size = new Size(101, 20);
+			lblCodigoPostal.TabIndex = 19;
+			lblCodigoPostal.Text = "Codigo Postal";
 			// 
-			// label12
+			// lblLocalidad
 			// 
-			label12.AutoSize = true;
-			label12.Font = new Font("Segoe UI", 11.25F);
-			label12.Location = new Point(111, 412);
-			label12.Name = "label12";
-			label12.Size = new Size(74, 20);
-			label12.TabIndex = 20;
-			label12.Text = "Localidad";
+			lblLocalidad.AutoSize = true;
+			lblLocalidad.Font = new Font("Segoe UI", 11.25F);
+			lblLocalidad.Location = new Point(111, 412);
+			lblLocalidad.Name = "lblLocalidad";
+			lblLocalidad.Size = new Size(74, 20);
+			lblLocalidad.TabIndex = 20;
+			lblLocalidad.Text = "Localidad";
 			// 
-			// label13
+			// lblColonia
 			// 
-			label13.AutoSize = true;
-			label13.Font = new Font("Segoe UI", 11.25F);
-			label13.Location = new Point(111, 448);
-			label13.Name = "label13";
-			label13.Size = new Size(60, 20);
-			label13.TabIndex = 21;
-			label13.Text = "Colonia";
+			lblColonia.AutoSize = true;
+			lblColonia.Font = new Font("Segoe UI", 11.25F);
+			lblColonia.Location = new Point(111, 448);
+			lblColonia.Name = "lblColonia";
+			lblColonia.Size = new Size(60, 20);
+			lblColonia.TabIndex = 21;
+			lblColonia.Text = "Colonia";
 			// 
-			// label14
+			// lblCalle
 			// 
-			label14.AutoSize = true;
-			label14.Font = new Font("Segoe UI", 11.25F);
-			label14.Location = new Point(111, 482);
-			label14.Name = "label14";
-			label14.Size = new Size(42, 20);
-			label14.TabIndex = 22;
-			label14.Text = "Calle";
+			lblCalle.AutoSize = true;
+			lblCalle.Font = new Font("Segoe UI", 11.25F);
+			lblCalle.Location = new Point(111, 482);
+			lblCalle.Name = "lblCalle";
+			lblCalle.Size = new Size(42, 20);
+			lblCalle.TabIndex = 22;
+			lblCalle.Text = "Calle";
 			// 
-			// textBox2
+			// txtApellidoPaterno
 			// 
-			textBox2.Location = new Point(263, 101);
-			textBox2.Multiline = true;
-			textBox2.Name = "textBox2";
-			textBox2.Size = new Size(717, 20);
-			textBox2.TabIndex = 23;
+			txtApellidoPaterno.Location = new Point(263, 101);
+			txtApellidoPaterno.Multiline = true;
+			txtApellidoPaterno.Name = "txtApellidoPaterno";
+			txtApellidoPaterno.Size = new Size(717, 20);
+			txtApellidoPaterno.TabIndex = 23;
 			// 
-			// textBox3
+			// txtApellidoMaterno
 			// 
-			textBox3.Location = new Point(263, 135);
-			textBox3.Multiline = true;
-			textBox3.Name = "textBox3";
-			textBox3.Size = new Size(717, 20);
-			textBox3.TabIndex = 24;
+			txtApellidoMaterno.Location = new Point(263, 135);
+			txtApellidoMaterno.Multiline = true;
+			txtApellidoMaterno.Name = "txtApellidoMaterno";
+			txtApellidoMaterno.Size = new Size(717, 20);
+			txtApellidoMaterno.TabIndex = 24;
 			// 
-			// textBox4
+			// txtEdad
 			// 
-			textBox4.Location = new Point(263, 165);
-			textBox4.Multiline = true;
-			textBox4.Name = "textBox4";
-			textBox4.Size = new Size(294, 20);
-			textBox4.TabIndex = 25;
+			txtEdad.Location = new Point(263, 165);
+			txtEdad.Multiline = true;
+			txtEdad.Name = "txtEdad";
+			txtEdad.Size = new Size(294, 20);
+			txtEdad.TabIndex = 25;
 			// 
-			// textBox6
+			// txtTelefono
 			// 
-			textBox6.Location = new Point(263, 232);
-			textBox6.Multiline = true;
-			textBox6.Name = "textBox6";
-			textBox6.Size = new Size(717, 20);
-			textBox6.TabIndex = 27;
+			txtTelefono.Location = new Point(263, 232);
+			txtTelefono.Multiline = true;
+			txtTelefono.Name = "txtTelefono";
+			txtTelefono.Size = new Size(717, 20);
+			txtTelefono.TabIndex = 27;
 			// 
-			// textBox7
+			// txtCorreoElectronico
 			// 
-			textBox7.Location = new Point(263, 268);
-			textBox7.Multiline = true;
-			textBox7.Name = "textBox7";
-			textBox7.Size = new Size(717, 20);
-			textBox7.TabIndex = 28;
+			txtCorreoElectronico.Location = new Point(263, 268);
+			txtCorreoElectronico.Multiline = true;
+			txtCorreoElectronico.Name = "txtCorreoElectronico";
+			txtCorreoElectronico.Size = new Size(717, 20);
+			txtCorreoElectronico.TabIndex = 28;
 			// 
-			// textBox9
+			// txtMunicipio
 			// 
-			textBox9.Location = new Point(263, 342);
-			textBox9.Multiline = true;
-			textBox9.Name = "textBox9";
-			textBox9.Size = new Size(717, 20);
-			textBox9.TabIndex = 30;
+			txtMunicipio.Location = new Point(263, 342);
+			txtMunicipio.Multiline = true;
+			txtMunicipio.Name = "txtMunicipio";
+			txtMunicipio.Size = new Size(717, 20);
+			txtMunicipio.TabIndex = 30;
 			// 
-			// textBox10
+			// txtCodigoPostal
 			// 
-			textBox10.Location = new Point(263, 377);
-			textBox10.Multiline = true;
-			textBox10.Name = "textBox10";
-			textBox10.Size = new Size(717, 20);
-			textBox10.TabIndex = 31;
+			txtCodigoPostal.Location = new Point(263, 377);
+			txtCodigoPostal.Multiline = true;
+			txtCodigoPostal.Name = "txtCodigoPostal";
+			txtCodigoPostal.Size = new Size(717, 20);
+			txtCodigoPostal.TabIndex = 31;
 			// 
-			// textBox11
+			// txtLocalidad
 			// 
-			textBox11.Location = new Point(263, 413);
-			textBox11.Multiline = true;
-			textBox11.Name = "textBox11";
-			textBox11.Size = new Size(717, 20);
-			textBox11.TabIndex = 32;
+			txtLocalidad.Location = new Point(263, 413);
+			txtLocalidad.Multiline = true;
+			txtLocalidad.Name = "txtLocalidad";
+			txtLocalidad.Size = new Size(717, 20);
+			txtLocalidad.TabIndex = 32;
 			// 
-			// textBox12
+			// txtColonia
 			// 
-			textBox12.Location = new Point(263, 448);
-			textBox12.Multiline = true;
-			textBox12.Name = "textBox12";
-			textBox12.Size = new Size(717, 20);
-			textBox12.TabIndex = 33;
+			txtColonia.Location = new Point(263, 448);
+			txtColonia.Multiline = true;
+			txtColonia.Name = "txtColonia";
+			txtColonia.Size = new Size(717, 20);
+			txtColonia.TabIndex = 33;
 			// 
-			// textBox13
+			// txtCalle
 			// 
-			textBox13.Location = new Point(263, 483);
-			textBox13.Multiline = true;
-			textBox13.Name = "textBox13";
-			textBox13.Size = new Size(717, 20);
-			textBox13.TabIndex = 34;
+			txtCalle.Location = new Point(263, 483);
+			txtCalle.Multiline = true;
+			txtCalle.Name = "txtCalle";
+			txtCalle.Size = new Size(717, 20);
+			txtCalle.TabIndex = 34;
 			// 
-			// label15
+			// lblGenero
 			// 
-			label15.AutoSize = true;
-			label15.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			label15.Location = new Point(613, 168);
-			label15.Name = "label15";
-			label15.Size = new Size(57, 20);
-			label15.TabIndex = 36;
-			label15.Text = "Genero";
+			lblGenero.AutoSize = true;
+			lblGenero.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			lblGenero.Location = new Point(613, 168);
+			lblGenero.Name = "lblGenero";
+			lblGenero.Size = new Size(57, 20);
+			lblGenero.TabIndex = 36;
+			lblGenero.Text = "Genero";
 			// 
-			// comboBox1
+			// cmbGenero
 			// 
-			comboBox1.FormattingEnabled = true;
-			comboBox1.Items.AddRange(new object[] { "Masculino", "Femenino", "Otro" });
-			comboBox1.Location = new Point(676, 165);
-			comboBox1.Name = "comboBox1";
-			comboBox1.Size = new Size(304, 23);
-			comboBox1.TabIndex = 37;
+			cmbGenero.FormattingEnabled = true;
+			cmbGenero.Items.AddRange(new object[] { "Masculino", "Femenino", "Otro" });
+			cmbGenero.Location = new Point(676, 165);
+			cmbGenero.Name = "cmbGenero";
+			cmbGenero.Size = new Size(304, 23);
+			cmbGenero.TabIndex = 37;
 			// 
-			// dateTimePicker1
+			// dtpFechaNacimiento
 			// 
-			dateTimePicker1.Format = DateTimePickerFormat.Short;
-			dateTimePicker1.Location = new Point(263, 203);
-			dateTimePicker1.Name = "dateTimePicker1";
-			dateTimePicker1.Size = new Size(205, 23);
-			dateTimePicker1.TabIndex = 38;
+			dtpFechaNacimiento.Format = DateTimePickerFormat.Short;
+			dtpFechaNacimiento.Location = new Point(263, 203);
+			dtpFechaNacimiento.Name = "dtpFechaNacimiento";
+			dtpFechaNacimiento.Size = new Size(205, 23);
+			dtpFechaNacimiento.TabIndex = 38;
 			// 
-			// comboBox2
+			// txtTipoSangre
 			// 
-			comboBox2.FormattingEnabled = true;
-			comboBox2.Items.AddRange(new object[] { "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-" });
-			comboBox2.Location = new Point(263, 303);
-			comboBox2.Name = "comboBox2";
-			comboBox2.Size = new Size(294, 23);
-			comboBox2.TabIndex = 39;
+			txtTipoSangre.FormattingEnabled = true;
+			txtTipoSangre.Items.AddRange(new object[] { "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-" });
+			txtTipoSangre.Location = new Point(263, 303);
+			txtTipoSangre.Name = "txtTipoSangre";
+			txtTipoSangre.Size = new Size(294, 23);
+			txtTipoSangre.TabIndex = 39;
 			// 
-			// button1
+			// btnGuardar
 			// 
-			button1.BackColor = Color.FromArgb(244, 249, 252);
-			button1.Location = new Point(674, 530);
-			button1.Name = "button1";
-			button1.Size = new Size(150, 30);
-			button1.TabIndex = 40;
-			button1.Text = "Guardar";
-			button1.UseVisualStyleBackColor = false;
+			btnGuardar.BackColor = Color.FromArgb(244, 249, 252);
+			btnGuardar.Location = new Point(674, 530);
+			btnGuardar.Name = "btnGuardar";
+			btnGuardar.Size = new Size(150, 30);
+			btnGuardar.TabIndex = 40;
+			btnGuardar.Text = "Guardar";
+			btnGuardar.UseVisualStyleBackColor = false;
 			// 
-			// button2
+			// btnCancelar
 			// 
-			button2.BackColor = Color.FromArgb(255, 205, 210);
-			button2.Location = new Point(830, 530);
-			button2.Name = "button2";
-			button2.Size = new Size(150, 30);
-			button2.TabIndex = 41;
-			button2.Text = "Cancelar";
-			button2.UseVisualStyleBackColor = false;
+			btnCancelar.BackColor = Color.FromArgb(255, 205, 210);
+			btnCancelar.Location = new Point(830, 530);
+			btnCancelar.Name = "btnCancelar";
+			btnCancelar.Size = new Size(150, 30);
+			btnCancelar.TabIndex = 41;
+			btnCancelar.Text = "Cancelar";
+			btnCancelar.UseVisualStyleBackColor = false;
 			// 
 			// frmRegistroPacientes
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(1195, 612);
-			Controls.Add(button2);
-			Controls.Add(button1);
-			Controls.Add(comboBox2);
-			Controls.Add(dateTimePicker1);
-			Controls.Add(comboBox1);
-			Controls.Add(label15);
-			Controls.Add(textBox13);
-			Controls.Add(textBox12);
-			Controls.Add(textBox11);
-			Controls.Add(textBox10);
-			Controls.Add(textBox9);
-			Controls.Add(textBox7);
-			Controls.Add(textBox6);
-			Controls.Add(textBox4);
-			Controls.Add(textBox3);
-			Controls.Add(textBox2);
-			Controls.Add(label14);
-			Controls.Add(label13);
-			Controls.Add(label12);
-			Controls.Add(label11);
-			Controls.Add(label10);
-			Controls.Add(label9);
-			Controls.Add(label8);
-			Controls.Add(label7);
-			Controls.Add(label6);
-			Controls.Add(label5);
-			Controls.Add(label4);
-			Controls.Add(label3);
-			Controls.Add(label2);
-			Controls.Add(label1);
-			Controls.Add(textBox1);
+			Controls.Add(btnCancelar);
+			Controls.Add(btnGuardar);
+			Controls.Add(txtTipoSangre);
+			Controls.Add(dtpFechaNacimiento);
+			Controls.Add(cmbGenero);
+			Controls.Add(lblGenero);
+			Controls.Add(txtCalle);
+			Controls.Add(txtColonia);
+			Controls.Add(txtLocalidad);
+			Controls.Add(txtCodigoPostal);
+			Controls.Add(txtMunicipio);
+			Controls.Add(txtCorreoElectronico);
+			Controls.Add(txtTelefono);
+			Controls.Add(txtEdad);
+			Controls.Add(txtApellidoMaterno);
+			Controls.Add(txtApellidoPaterno);
+			Controls.Add(lblCalle);
+			Controls.Add(lblColonia);
+			Controls.Add(lblLocalidad);
+			Controls.Add(lblCodigoPostal);
+			Controls.Add(lblMunicipio);
+			Controls.Add(lblTipoSangre);
+			Controls.Add(lblCorreoElectronico);
+			Controls.Add(lblTelefono);
+			Controls.Add(lblFechaNacimiento);
+			Controls.Add(lblEdad);
+			Controls.Add(lblApellidoMaterno);
+			Controls.Add(lblApellidoPaterno);
+			Controls.Add(lblNombre);
+			Controls.Add(lblRegistroPacientes);
+			Controls.Add(txtNombre);
 			Name = "frmRegistroPacientes";
 			Text = "frmRegistroPacientes";
 			ResumeLayout(false);
@@ -389,36 +389,36 @@
 
 		#endregion
 
-		private TextBox textBox1;
-		private Label label1;
-		private Label label2;
-		private Label label3;
-		private Label label4;
-		private Label label5;
-		private Label label6;
-		private Label label7;
-		private Label label8;
-		private Label label9;
-		private Label label10;
-		private Label label11;
-		private Label label12;
-		private Label label13;
-		private Label label14;
-		private TextBox textBox2;
-		private TextBox textBox3;
-		private TextBox textBox4;
-		private TextBox textBox6;
-		private TextBox textBox7;
-		private TextBox textBox9;
-		private TextBox textBox10;
-		private TextBox textBox11;
-		private TextBox textBox12;
-		private TextBox textBox13;
-		private Label label15;
-		private ComboBox comboBox1;
-		private DateTimePicker dateTimePicker1;
-		private ComboBox comboBox2;
-		private Button button1;
-		private Button button2;
+		private TextBox txtNombre;
+		private Label lblRegistroPacientes;
+		private Label lblNombre;
+		private Label lblApellidoPaterno;
+		private Label lblApellidoMaterno;
+		private Label lblEdad;
+		private Label lblFechaNacimiento;
+		private Label lblTelefono;
+		private Label lblCorreoElectronico;
+		private Label lblTipoSangre;
+		private Label lblMunicipio;
+		private Label lblCodigoPostal;
+		private Label lblLocalidad;
+		private Label lblColonia;
+		private Label lblCalle;
+		private TextBox txtApellidoPaterno;
+		private TextBox txtApellidoMaterno;
+		private TextBox txtEdad;
+		private TextBox txtTelefono;
+		private TextBox txtCorreoElectronico;
+		private TextBox txtMunicipio;
+		private TextBox txtCodigoPostal;
+		private TextBox txtLocalidad;
+		private TextBox txtColonia;
+		private TextBox txtCalle;
+		private Label lblGenero;
+		private ComboBox cmbGenero;
+		private DateTimePicker dtpFechaNacimiento;
+		private ComboBox txtTipoSangre;
+		private Button btnGuardar;
+		private Button btnCancelar;
 	}
 }

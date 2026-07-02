@@ -28,234 +28,234 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			textBox1 = new TextBox();
-			label1 = new Label();
-			button1 = new Button();
-			pictureBox1 = new PictureBox();
-			label2 = new Label();
-			textBox2 = new TextBox();
-			dateTimePicker1 = new DateTimePicker();
-			label6 = new Label();
-			label3 = new Label();
-			textBox3 = new TextBox();
-			button2 = new Button();
-			button3 = new Button();
-			monthCalendar1 = new MonthCalendar();
-			label4 = new Label();
-			button4 = new Button();
-			dateTimePicker2 = new DateTimePicker();
-			label5 = new Label();
-			((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+			txtBuscarPacientes = new TextBox();
+			lblAgendaCitas = new Label();
+			btnBuscar = new Button();
+			pcbLupa = new PictureBox();
+			lblNombre = new Label();
+			txtNombre = new TextBox();
+			dtpFechaCita = new DateTimePicker();
+			lblFechaCita = new Label();
+			lblMotivoCita = new Label();
+			txtMotivoCita = new TextBox();
+			btnCancelar = new Button();
+			btnGuardar = new Button();
+			mcCalendarioCitas = new MonthCalendar();
+			lblCalendarioCita = new Label();
+			btnGuardarCita = new Button();
+			dtpHoraCita = new DateTimePicker();
+			lblHoraCita = new Label();
+			((System.ComponentModel.ISupportInitialize)pcbLupa).BeginInit();
 			SuspendLayout();
 			// 
-			// textBox1
+			// txtBuscarPacientes
 			// 
-			textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			textBox1.Location = new Point(219, 62);
-			textBox1.Multiline = true;
-			textBox1.Name = "textBox1";
-			textBox1.PlaceholderText = "Buscar Paciente";
-			textBox1.Size = new Size(717, 25);
-			textBox1.TabIndex = 1;
+			txtBuscarPacientes.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			txtBuscarPacientes.Location = new Point(219, 62);
+			txtBuscarPacientes.Multiline = true;
+			txtBuscarPacientes.Name = "txtBuscarPacientes";
+			txtBuscarPacientes.PlaceholderText = "Buscar Paciente";
+			txtBuscarPacientes.Size = new Size(717, 25);
+			txtBuscarPacientes.TabIndex = 1;
 			// 
-			// label1
+			// lblAgendaCitas
 			// 
-			label1.AutoSize = true;
-			label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-			label1.Location = new Point(12, 9);
-			label1.Name = "label1";
-			label1.Size = new Size(172, 30);
-			label1.TabIndex = 10;
-			label1.Text = "Agenda de Citas";
+			lblAgendaCitas.AutoSize = true;
+			lblAgendaCitas.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+			lblAgendaCitas.Location = new Point(12, 9);
+			lblAgendaCitas.Name = "lblAgendaCitas";
+			lblAgendaCitas.Size = new Size(172, 30);
+			lblAgendaCitas.TabIndex = 10;
+			lblAgendaCitas.Text = "Agenda de Citas";
 			// 
-			// button1
+			// btnBuscar
 			// 
-			button1.BackColor = Color.FromArgb(244, 249, 252);
-			button1.Location = new Point(942, 57);
-			button1.Name = "button1";
-			button1.Size = new Size(150, 30);
-			button1.TabIndex = 41;
-			button1.Text = "Buscar";
-			button1.UseVisualStyleBackColor = false;
+			btnBuscar.BackColor = Color.FromArgb(244, 249, 252);
+			btnBuscar.Location = new Point(942, 57);
+			btnBuscar.Name = "btnBuscar";
+			btnBuscar.Size = new Size(150, 30);
+			btnBuscar.TabIndex = 41;
+			btnBuscar.Text = "Buscar";
+			btnBuscar.UseVisualStyleBackColor = false;
 			// 
-			// pictureBox1
+			// pcbLupa
 			// 
-			pictureBox1.Image = Properties.Resources.WhatsApp_Image_2026_06_23_at_2_04_17_PM__1_;
-			pictureBox1.Location = new Point(189, 62);
-			pictureBox1.Name = "pictureBox1";
-			pictureBox1.Size = new Size(24, 25);
-			pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-			pictureBox1.TabIndex = 42;
-			pictureBox1.TabStop = false;
+			pcbLupa.Image = Properties.Resources.WhatsApp_Image_2026_06_23_at_2_04_17_PM__1_;
+			pcbLupa.Location = new Point(189, 62);
+			pcbLupa.Name = "pcbLupa";
+			pcbLupa.Size = new Size(24, 25);
+			pcbLupa.SizeMode = PictureBoxSizeMode.StretchImage;
+			pcbLupa.TabIndex = 42;
+			pcbLupa.TabStop = false;
 			// 
-			// label2
+			// lblNombre
 			// 
-			label2.AutoSize = true;
-			label2.Font = new Font("Segoe UI", 11.25F);
-			label2.Location = new Point(87, 127);
-			label2.Name = "label2";
-			label2.Size = new Size(64, 20);
-			label2.TabIndex = 44;
-			label2.Text = "Nombre";
+			lblNombre.AutoSize = true;
+			lblNombre.Font = new Font("Segoe UI", 11.25F);
+			lblNombre.Location = new Point(87, 127);
+			lblNombre.Name = "lblNombre";
+			lblNombre.Size = new Size(64, 20);
+			lblNombre.TabIndex = 44;
+			lblNombre.Text = "Nombre";
 			// 
-			// textBox2
+			// txtNombre
 			// 
-			textBox2.Location = new Point(219, 128);
-			textBox2.Multiline = true;
-			textBox2.Name = "textBox2";
-			textBox2.Size = new Size(717, 20);
-			textBox2.TabIndex = 43;
+			txtNombre.Location = new Point(219, 128);
+			txtNombre.Multiline = true;
+			txtNombre.Name = "txtNombre";
+			txtNombre.Size = new Size(717, 20);
+			txtNombre.TabIndex = 43;
 			// 
-			// dateTimePicker1
+			// dtpFechaCita
 			// 
-			dateTimePicker1.Format = DateTimePickerFormat.Short;
-			dateTimePicker1.Location = new Point(219, 164);
-			dateTimePicker1.Name = "dateTimePicker1";
-			dateTimePicker1.Size = new Size(205, 23);
-			dateTimePicker1.TabIndex = 46;
+			dtpFechaCita.Format = DateTimePickerFormat.Short;
+			dtpFechaCita.Location = new Point(219, 164);
+			dtpFechaCita.Name = "dtpFechaCita";
+			dtpFechaCita.Size = new Size(205, 23);
+			dtpFechaCita.TabIndex = 46;
 			// 
-			// label6
+			// lblFechaCita
 			// 
-			label6.AutoSize = true;
-			label6.Font = new Font("Segoe UI", 11.25F);
-			label6.Location = new Point(87, 168);
-			label6.Name = "label6";
-			label6.Size = new Size(112, 20);
-			label6.TabIndex = 45;
-			label6.Text = "Fecha de la cita";
+			lblFechaCita.AutoSize = true;
+			lblFechaCita.Font = new Font("Segoe UI", 11.25F);
+			lblFechaCita.Location = new Point(87, 168);
+			lblFechaCita.Name = "lblFechaCita";
+			lblFechaCita.Size = new Size(112, 20);
+			lblFechaCita.TabIndex = 45;
+			lblFechaCita.Text = "Fecha de la cita";
 			// 
-			// label3
+			// lblMotivoCita
 			// 
-			label3.AutoSize = true;
-			label3.Font = new Font("Segoe UI", 11.25F);
-			label3.Location = new Point(87, 201);
-			label3.Name = "label3";
-			label3.Size = new Size(121, 20);
-			label3.TabIndex = 48;
-			label3.Text = "Motivo de la cita";
+			lblMotivoCita.AutoSize = true;
+			lblMotivoCita.Font = new Font("Segoe UI", 11.25F);
+			lblMotivoCita.Location = new Point(87, 201);
+			lblMotivoCita.Name = "lblMotivoCita";
+			lblMotivoCita.Size = new Size(121, 20);
+			lblMotivoCita.TabIndex = 48;
+			lblMotivoCita.Text = "Motivo de la cita";
 			// 
-			// textBox3
+			// txtMotivoCita
 			// 
-			textBox3.Location = new Point(219, 202);
-			textBox3.Multiline = true;
-			textBox3.Name = "textBox3";
-			textBox3.Size = new Size(717, 20);
-			textBox3.TabIndex = 47;
+			txtMotivoCita.Location = new Point(219, 202);
+			txtMotivoCita.Multiline = true;
+			txtMotivoCita.Name = "txtMotivoCita";
+			txtMotivoCita.Size = new Size(717, 20);
+			txtMotivoCita.TabIndex = 47;
 			// 
-			// button2
+			// btnCancelar
 			// 
-			button2.BackColor = Color.FromArgb(255, 205, 210);
-			button2.Location = new Point(786, 256);
-			button2.Name = "button2";
-			button2.Size = new Size(150, 30);
-			button2.TabIndex = 50;
-			button2.Text = "Cancelar";
-			button2.UseVisualStyleBackColor = false;
+			btnCancelar.BackColor = Color.FromArgb(255, 205, 210);
+			btnCancelar.Location = new Point(786, 256);
+			btnCancelar.Name = "btnCancelar";
+			btnCancelar.Size = new Size(150, 30);
+			btnCancelar.TabIndex = 50;
+			btnCancelar.Text = "Cancelar";
+			btnCancelar.UseVisualStyleBackColor = false;
 			// 
-			// button3
+			// btnGuardar
 			// 
-			button3.BackColor = Color.FromArgb(244, 249, 252);
-			button3.Location = new Point(630, 256);
-			button3.Name = "button3";
-			button3.Size = new Size(150, 30);
-			button3.TabIndex = 49;
-			button3.Text = "Guardar";
-			button3.UseVisualStyleBackColor = false;
+			btnGuardar.BackColor = Color.FromArgb(244, 249, 252);
+			btnGuardar.Location = new Point(630, 256);
+			btnGuardar.Name = "btnGuardar";
+			btnGuardar.Size = new Size(150, 30);
+			btnGuardar.TabIndex = 49;
+			btnGuardar.Text = "Guardar";
+			btnGuardar.UseVisualStyleBackColor = false;
 			// 
-			// monthCalendar1
+			// mcCalendarioCitas
 			// 
-			monthCalendar1.CalendarDimensions = new Size(3, 1);
-			monthCalendar1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			monthCalendar1.Location = new Point(157, 320);
-			monthCalendar1.Name = "monthCalendar1";
-			monthCalendar1.TabIndex = 51;
+			mcCalendarioCitas.CalendarDimensions = new Size(3, 1);
+			mcCalendarioCitas.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+			mcCalendarioCitas.Location = new Point(157, 320);
+			mcCalendarioCitas.Name = "mcCalendarioCitas";
+			mcCalendarioCitas.TabIndex = 51;
 			// 
-			// label4
+			// lblCalendarioCita
 			// 
-			label4.AutoSize = true;
-			label4.Font = new Font("Segoe UI", 11.25F);
-			label4.Location = new Point(77, 276);
-			label4.Name = "label4";
-			label4.Size = new Size(136, 20);
-			label4.TabIndex = 52;
-			label4.Text = "Calendario de citas";
+			lblCalendarioCita.AutoSize = true;
+			lblCalendarioCita.Font = new Font("Segoe UI", 11.25F);
+			lblCalendarioCita.Location = new Point(77, 276);
+			lblCalendarioCita.Name = "lblCalendarioCita";
+			lblCalendarioCita.Size = new Size(136, 20);
+			lblCalendarioCita.TabIndex = 52;
+			lblCalendarioCita.Text = "Calendario de citas";
 			// 
-			// button4
+			// btnGuardarCita
 			// 
-			button4.BackColor = Color.FromArgb(244, 249, 252);
-			button4.Location = new Point(786, 533);
-			button4.Name = "button4";
-			button4.Size = new Size(150, 30);
-			button4.TabIndex = 53;
-			button4.Text = "Guardar cita";
-			button4.UseVisualStyleBackColor = false;
+			btnGuardarCita.BackColor = Color.FromArgb(244, 249, 252);
+			btnGuardarCita.Location = new Point(786, 533);
+			btnGuardarCita.Name = "btnGuardarCita";
+			btnGuardarCita.Size = new Size(150, 30);
+			btnGuardarCita.TabIndex = 53;
+			btnGuardarCita.Text = "Guardar cita";
+			btnGuardarCita.UseVisualStyleBackColor = false;
 			// 
-			// dateTimePicker2
+			// dtpHoraCita
 			// 
-			dateTimePicker2.Format = DateTimePickerFormat.Time;
-			dateTimePicker2.Location = new Point(586, 165);
-			dateTimePicker2.Name = "dateTimePicker2";
-			dateTimePicker2.ShowUpDown = true;
-			dateTimePicker2.Size = new Size(174, 23);
-			dateTimePicker2.TabIndex = 54;
+			dtpHoraCita.Format = DateTimePickerFormat.Time;
+			dtpHoraCita.Location = new Point(586, 165);
+			dtpHoraCita.Name = "dtpHoraCita";
+			dtpHoraCita.ShowUpDown = true;
+			dtpHoraCita.Size = new Size(174, 23);
+			dtpHoraCita.TabIndex = 54;
 			// 
-			// label5
+			// lblHoraCita
 			// 
-			label5.AutoSize = true;
-			label5.Font = new Font("Segoe UI", 11.25F);
-			label5.Location = new Point(473, 168);
-			label5.Name = "label5";
-			label5.Size = new Size(107, 20);
-			label5.TabIndex = 55;
-			label5.Text = "Hora de la cita";
+			lblHoraCita.AutoSize = true;
+			lblHoraCita.Font = new Font("Segoe UI", 11.25F);
+			lblHoraCita.Location = new Point(473, 168);
+			lblHoraCita.Name = "lblHoraCita";
+			lblHoraCita.Size = new Size(107, 20);
+			lblHoraCita.TabIndex = 55;
+			lblHoraCita.Text = "Hora de la cita";
 			// 
 			// frmAgendaCitas
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(1195, 612);
-			Controls.Add(label5);
-			Controls.Add(dateTimePicker2);
-			Controls.Add(button4);
-			Controls.Add(label4);
-			Controls.Add(monthCalendar1);
-			Controls.Add(button2);
-			Controls.Add(button3);
-			Controls.Add(label3);
-			Controls.Add(textBox3);
-			Controls.Add(dateTimePicker1);
-			Controls.Add(label6);
-			Controls.Add(label2);
-			Controls.Add(textBox2);
-			Controls.Add(pictureBox1);
-			Controls.Add(button1);
-			Controls.Add(label1);
-			Controls.Add(textBox1);
+			Controls.Add(lblHoraCita);
+			Controls.Add(dtpHoraCita);
+			Controls.Add(btnGuardarCita);
+			Controls.Add(lblCalendarioCita);
+			Controls.Add(mcCalendarioCitas);
+			Controls.Add(btnCancelar);
+			Controls.Add(btnGuardar);
+			Controls.Add(lblMotivoCita);
+			Controls.Add(txtMotivoCita);
+			Controls.Add(dtpFechaCita);
+			Controls.Add(lblFechaCita);
+			Controls.Add(lblNombre);
+			Controls.Add(txtNombre);
+			Controls.Add(pcbLupa);
+			Controls.Add(btnBuscar);
+			Controls.Add(lblAgendaCitas);
+			Controls.Add(txtBuscarPacientes);
 			Name = "frmAgendaCitas";
 			Text = "frmAgendaCitas";
-			((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+			((System.ComponentModel.ISupportInitialize)pcbLupa).EndInit();
 			ResumeLayout(false);
 			PerformLayout();
 		}
 
 		#endregion
 
-		private TextBox textBox1;
-		private Label label1;
-		private Button button1;
-		private PictureBox pictureBox1;
-		private Label label2;
-		private TextBox textBox2;
-		private DateTimePicker dateTimePicker1;
-		private Label label6;
-		private Label label3;
-		private TextBox textBox3;
-		private Button button2;
-		private Button button3;
-		private MonthCalendar monthCalendar1;
-		private Label label4;
-		private Button button4;
-		private DateTimePicker dateTimePicker2;
-		private Label label5;
+		private TextBox txtBuscarPacientes;
+		private Label lblAgendaCitas;
+		private Button btnBuscar;
+		private PictureBox pcbLupa;
+		private Label lblNombre;
+		private TextBox txtNombre;
+		private DateTimePicker dtpFechaCita;
+		private Label lblFechaCita;
+		private Label lblMotivoCita;
+		private TextBox txtMotivoCita;
+		private Button btnCancelar;
+		private Button btnGuardar;
+		private MonthCalendar mcCalendarioCitas;
+		private Label lblCalendarioCita;
+		private Button btnGuardarCita;
+		private DateTimePicker dtpHoraCita;
+		private Label lblHoraCita;
 	}
 }
