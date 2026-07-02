@@ -8,11 +8,11 @@ using System.Windows.Forms;
 
 namespace BakupsDeVitalDent
 {
-	public partial class frmHistorialMedico : Form
-	{
-		public frmHistorialMedico()
-		{
-			InitializeComponent();
-		}
-	}
+    public partial class frmHistorialMedico : Form
+    {
+        public frmHistorialMedico()
+        {
+            InitializeComponent();
+        }
+    }
 }

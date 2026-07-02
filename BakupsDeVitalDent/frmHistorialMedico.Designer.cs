@@ -42,12 +42,12 @@
             txtDiagnostico = new TextBox();
             lblTratamiento = new Label();
             txtTratamiento = new TextBox();
-            lblMedicameto = new Label();
-            txtMedicamento = new TextBox();
             lblObservaciones = new Label();
             txtObservaciones = new TextBox();
             btnDescargar = new Button();
             btnLimpiar = new Button();
+            lblMedicameto = new Label();
+            txtMedicamento = new TextBox();
             ((System.ComponentModel.ISupportInitialize)ptbLupa).BeginInit();
             SuspendLayout();
             // 
@@ -108,11 +108,11 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(324, 156);
+            txtNombre.Location = new Point(381, 156);
             txtNombre.Margin = new Padding(4, 5, 4, 5);
             txtNombre.Multiline = true;
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(1077, 31);
+            txtNombre.Size = new Size(1020, 30);
             txtNombre.TabIndex = 51;
             // 
             // lblFechaConsulta
@@ -128,7 +128,7 @@
             // 
             // txtFechaConsulta
             // 
-            txtFechaConsulta.Location = new Point(324, 195);
+            txtFechaConsulta.Location = new Point(381, 193);
             txtFechaConsulta.Margin = new Padding(4, 5, 4, 5);
             txtFechaConsulta.Multiline = true;
             txtFechaConsulta.Name = "txtFechaConsulta";
@@ -148,11 +148,11 @@
             // 
             // txtMotivoConsulta
             // 
-            txtMotivoConsulta.Location = new Point(324, 236);
+            txtMotivoConsulta.Location = new Point(381, 235);
             txtMotivoConsulta.Margin = new Padding(4, 5, 4, 5);
             txtMotivoConsulta.Multiline = true;
             txtMotivoConsulta.Name = "txtMotivoConsulta";
-            txtMotivoConsulta.Size = new Size(1077, 31);
+            txtMotivoConsulta.Size = new Size(1020, 30);
             txtMotivoConsulta.TabIndex = 55;
             // 
             // lblDiagnostico
@@ -168,11 +168,11 @@
             // 
             // txtDiagnostico
             // 
-            txtDiagnostico.Location = new Point(324, 277);
+            txtDiagnostico.Location = new Point(381, 275);
             txtDiagnostico.Margin = new Padding(4, 5, 4, 5);
             txtDiagnostico.Multiline = true;
             txtDiagnostico.Name = "txtDiagnostico";
-            txtDiagnostico.Size = new Size(1077, 31);
+            txtDiagnostico.Size = new Size(1020, 30);
             txtDiagnostico.TabIndex = 57;
             // 
             // lblTratamiento
@@ -188,32 +188,12 @@
             // 
             // txtTratamiento
             // 
-            txtTratamiento.Location = new Point(324, 318);
+            txtTratamiento.Location = new Point(381, 315);
             txtTratamiento.Margin = new Padding(4, 5, 4, 5);
             txtTratamiento.Multiline = true;
             txtTratamiento.Name = "txtTratamiento";
-            txtTratamiento.Size = new Size(1077, 31);
+            txtTratamiento.Size = new Size(1020, 30);
             txtTratamiento.TabIndex = 59;
-            // 
-            // lblMedicameto
-            // 
-            lblMedicameto.AutoSize = true;
-            lblMedicameto.Font = new Font("Segoe UI", 11.25F);
-            lblMedicameto.Location = new Point(119, 357);
-            lblMedicameto.Margin = new Padding(4, 0, 4, 0);
-            lblMedicameto.Name = "lblMedicameto";
-            lblMedicameto.Size = new Size(156, 31);
-            lblMedicameto.TabIndex = 62;
-            lblMedicameto.Text = "Medicamento";
-            // 
-            // txtMedicamento
-            // 
-            txtMedicamento.Location = new Point(324, 359);
-            txtMedicamento.Margin = new Padding(4, 5, 4, 5);
-            txtMedicamento.Multiline = true;
-            txtMedicamento.Name = "txtMedicamento";
-            txtMedicamento.Size = new Size(1077, 31);
-            txtMedicamento.TabIndex = 61;
             // 
             // lblObservaciones
             // 
@@ -228,11 +208,11 @@
             // 
             // txtObservaciones
             // 
-            txtObservaciones.Location = new Point(324, 403);
+            txtObservaciones.Location = new Point(381, 403);
             txtObservaciones.Margin = new Padding(4, 5, 4, 5);
             txtObservaciones.Multiline = true;
             txtObservaciones.Name = "txtObservaciones";
-            txtObservaciones.Size = new Size(1077, 309);
+            txtObservaciones.Size = new Size(1020, 309);
             txtObservaciones.TabIndex = 63;
             // 
             // btnDescargar
@@ -241,7 +221,7 @@
             btnDescargar.Location = new Point(1187, 735);
             btnDescargar.Margin = new Padding(4, 5, 4, 5);
             btnDescargar.Name = "btnDescargar";
-            btnDescargar.Size = new Size(214, 50);
+            btnDescargar.Size = new Size(200, 45);
             btnDescargar.TabIndex = 66;
             btnDescargar.Text = "Limpiar";
             btnDescargar.UseVisualStyleBackColor = false;
@@ -252,10 +232,30 @@
             btnLimpiar.Location = new Point(965, 735);
             btnLimpiar.Margin = new Padding(4, 5, 4, 5);
             btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(214, 50);
+            btnLimpiar.Size = new Size(200, 45);
             btnLimpiar.TabIndex = 65;
             btnLimpiar.Text = "Descargar ";
             btnLimpiar.UseVisualStyleBackColor = false;
+            // 
+            // lblMedicameto
+            // 
+            lblMedicameto.AutoSize = true;
+            lblMedicameto.Font = new Font("Segoe UI", 11.25F);
+            lblMedicameto.Location = new Point(119, 357);
+            lblMedicameto.Margin = new Padding(4, 0, 4, 0);
+            lblMedicameto.Name = "lblMedicameto";
+            lblMedicameto.Size = new Size(156, 31);
+            lblMedicameto.TabIndex = 62;
+            lblMedicameto.Text = "Medicamento";
+            // 
+            // txtMedicamento
+            // 
+            txtMedicamento.Location = new Point(381, 355);
+            txtMedicamento.Margin = new Padding(4, 5, 4, 5);
+            txtMedicamento.Multiline = true;
+            txtMedicamento.Name = "txtMedicamento";
+            txtMedicamento.Size = new Size(1020, 30);
+            txtMedicamento.TabIndex = 61;
             // 
             // frmHistorialMedico
             // 
@@ -306,11 +306,11 @@
 		private TextBox txtDiagnostico;
 		private Label lblTratamiento;
 		private TextBox txtTratamiento;
-		private Label lblMedicameto;
-		private TextBox txtMedicamento;
 		private Label lblObservaciones;
 		private TextBox txtObservaciones;
 		private Button btnDescargar;
 		private Button btnLimpiar;
-	}
+        private Label lblMedicameto;
+        private TextBox txtMedicamento;
+    }
 }

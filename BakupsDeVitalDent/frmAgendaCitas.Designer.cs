@@ -119,7 +119,7 @@
             dtpFechaCita.Location = new Point(329, 208);
             dtpFechaCita.Margin = new Padding(4, 5, 4, 5);
             dtpFechaCita.Name = "dtpFechaCita";
-            dtpFechaCita.Size = new Size(291, 31);
+            dtpFechaCita.Size = new Size(290, 31);
             dtpFechaCita.TabIndex = 46;
             // 
             // lblFechaCita
@@ -213,7 +213,7 @@
             dtpHoraCita.Margin = new Padding(4, 5, 4, 5);
             dtpHoraCita.Name = "dtpHoraCita";
             dtpHoraCita.ShowUpDown = true;
-            dtpHoraCita.Size = new Size(247, 31);
+            dtpHoraCita.Size = new Size(290, 31);
             dtpHoraCita.TabIndex = 54;
             // 
             // lblHoraCita
