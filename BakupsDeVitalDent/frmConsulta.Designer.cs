@@ -56,7 +56,7 @@
             btnBuscar.Location = new Point(1309, 107);
             btnBuscar.Margin = new Padding(4, 5, 4, 5);
             btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new Size(214, 50);
+            btnBuscar.Size = new Size(200, 45);
             btnBuscar.TabIndex = 44;
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = false;
@@ -99,7 +99,7 @@
             btnSiguiente.Location = new Point(1307, 730);
             btnSiguiente.Margin = new Padding(4, 5, 4, 5);
             btnSiguiente.Name = "btnSiguiente";
-            btnSiguiente.Size = new Size(214, 50);
+            btnSiguiente.Size = new Size(200, 45);
             btnSiguiente.TabIndex = 52;
             btnSiguiente.Text = "Siguiente";
             btnSiguiente.UseVisualStyleBackColor = false;
@@ -110,7 +110,7 @@
             btnAnterior.Location = new Point(1085, 730);
             btnAnterior.Margin = new Padding(4, 5, 4, 5);
             btnAnterior.Name = "btnAnterior";
-            btnAnterior.Size = new Size(214, 50);
+            btnAnterior.Size = new Size(200, 45);
             btnAnterior.TabIndex = 51;
             btnAnterior.Text = "Anterior";
             btnAnterior.UseVisualStyleBackColor = false;

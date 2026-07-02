@@ -67,7 +67,7 @@
             txtNombre.Margin = new Padding(4, 5, 4, 5);
             txtNombre.Multiline = true;
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(1023, 31);
+            txtNombre.Size = new Size(1020, 30);
             txtNombre.TabIndex = 0;
             // 
             // lblRegistroPacientes
@@ -230,7 +230,7 @@
             txtApellidoPaterno.Margin = new Padding(4, 5, 4, 5);
             txtApellidoPaterno.Multiline = true;
             txtApellidoPaterno.Name = "txtApellidoPaterno";
-            txtApellidoPaterno.Size = new Size(1023, 31);
+            txtApellidoPaterno.Size = new Size(1020, 30);
             txtApellidoPaterno.TabIndex = 23;
             // 
             // txtApellidoMaterno
@@ -239,7 +239,7 @@
             txtApellidoMaterno.Margin = new Padding(4, 5, 4, 5);
             txtApellidoMaterno.Multiline = true;
             txtApellidoMaterno.Name = "txtApellidoMaterno";
-            txtApellidoMaterno.Size = new Size(1023, 31);
+            txtApellidoMaterno.Size = new Size(1020, 30);
             txtApellidoMaterno.TabIndex = 24;
             // 
             // txtEdad
@@ -257,7 +257,7 @@
             txtTelefono.Margin = new Padding(4, 5, 4, 5);
             txtTelefono.Multiline = true;
             txtTelefono.Name = "txtTelefono";
-            txtTelefono.Size = new Size(1023, 31);
+            txtTelefono.Size = new Size(1020, 30);
             txtTelefono.TabIndex = 27;
             // 
             // txtCorreoElectronico
@@ -266,7 +266,7 @@
             txtCorreoElectronico.Margin = new Padding(4, 5, 4, 5);
             txtCorreoElectronico.Multiline = true;
             txtCorreoElectronico.Name = "txtCorreoElectronico";
-            txtCorreoElectronico.Size = new Size(1023, 31);
+            txtCorreoElectronico.Size = new Size(1020, 30);
             txtCorreoElectronico.TabIndex = 28;
             // 
             // txtMunicipio
@@ -275,7 +275,7 @@
             txtMunicipio.Margin = new Padding(4, 5, 4, 5);
             txtMunicipio.Multiline = true;
             txtMunicipio.Name = "txtMunicipio";
-            txtMunicipio.Size = new Size(1023, 31);
+            txtMunicipio.Size = new Size(1020, 30);
             txtMunicipio.TabIndex = 30;
             // 
             // txtCodigoPostal
@@ -284,7 +284,7 @@
             txtCodigoPostal.Margin = new Padding(4, 5, 4, 5);
             txtCodigoPostal.Multiline = true;
             txtCodigoPostal.Name = "txtCodigoPostal";
-            txtCodigoPostal.Size = new Size(1023, 31);
+            txtCodigoPostal.Size = new Size(1020, 30);
             txtCodigoPostal.TabIndex = 31;
             // 
             // txtLocalidad
@@ -293,7 +293,7 @@
             txtLocalidad.Margin = new Padding(4, 5, 4, 5);
             txtLocalidad.Multiline = true;
             txtLocalidad.Name = "txtLocalidad";
-            txtLocalidad.Size = new Size(1023, 31);
+            txtLocalidad.Size = new Size(1020, 30);
             txtLocalidad.TabIndex = 32;
             // 
             // txtColonia
@@ -360,7 +360,7 @@
             btnGuardar.Location = new Point(963, 681);
             btnGuardar.Margin = new Padding(4, 5, 4, 5);
             btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(214, 50);
+            btnGuardar.Size = new Size(200, 45);
             btnGuardar.TabIndex = 40;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = false;
@@ -371,7 +371,7 @@
             btnCancelar.Location = new Point(1185, 681);
             btnCancelar.Margin = new Padding(4, 5, 4, 5);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(214, 50);
+            btnCancelar.Size = new Size(200, 45);
             btnCancelar.TabIndex = 41;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = false;

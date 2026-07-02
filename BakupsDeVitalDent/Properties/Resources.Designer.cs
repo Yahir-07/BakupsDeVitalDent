@@ -63,6 +63,16 @@ namespace BakupsDeVitalDent.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_59 {
+            get {
+                object obj = ResourceManager.GetObject("Group 59", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2026_06_22_at_3_27_53_PM {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2026-06-22 at 3.27.53 PM", resourceCulture);
