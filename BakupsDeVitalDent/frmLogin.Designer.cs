@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ptbLogo = new PictureBox();
+            pcbLogo = new PictureBox();
             txtNombreUsuario = new TextBox();
             txtContrasena = new TextBox();
             lblUsuario = new Label();
@@ -37,19 +37,19 @@
             btnSalir = new Button();
             btnIniciarSesion = new Button();
             lblContrasena = new Label();
-            ((System.ComponentModel.ISupportInitialize)ptbLogo).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcbLogo).BeginInit();
             SuspendLayout();
             // 
-            // ptbLogo
+            // pcbLogo
             // 
-            ptbLogo.Image = Properties.Resources.WhatsApp_Image_2026_06_23_at_9_46_14_PM;
-            ptbLogo.Location = new Point(288, 36);
-            ptbLogo.Margin = new Padding(4, 5, 4, 5);
-            ptbLogo.Name = "ptbLogo";
-            ptbLogo.Size = new Size(284, 191);
-            ptbLogo.SizeMode = PictureBoxSizeMode.StretchImage;
-            ptbLogo.TabIndex = 0;
-            ptbLogo.TabStop = false;
+            pcbLogo.Image = Properties.Resources.WhatsApp_Image_2026_06_23_at_9_46_14_PM;
+            pcbLogo.Location = new Point(288, 36);
+            pcbLogo.Margin = new Padding(4, 5, 4, 5);
+            pcbLogo.Name = "pcbLogo";
+            pcbLogo.Size = new Size(284, 191);
+            pcbLogo.SizeMode = PictureBoxSizeMode.StretchImage;
+            pcbLogo.TabIndex = 0;
+            pcbLogo.TabStop = false;
             // 
             // txtNombreUsuario
             // 
@@ -59,7 +59,7 @@
             txtNombreUsuario.Multiline = true;
             txtNombreUsuario.Name = "txtNombreUsuario";
             txtNombreUsuario.PlaceholderText = "Nombre del trabajador";
-            txtNombreUsuario.Size = new Size(370, 44);
+            txtNombreUsuario.Size = new Size(370, 39);
             txtNombreUsuario.TabIndex = 1;
             // 
             // txtContrasena
@@ -134,18 +134,18 @@
             // 
             lblContrasena.AutoSize = true;
             lblContrasena.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblContrasena.Location = new Point(186, 298);
+            lblContrasena.Location = new Point(171, 298);
             lblContrasena.Margin = new Padding(4, 0, 4, 0);
             lblContrasena.Name = "lblContrasena";
-            lblContrasena.Size = new Size(128, 32);
+            lblContrasena.Size = new Size(143, 32);
             lblContrasena.TabIndex = 55;
-            lblContrasena.Text = "Cotraseña";
+            lblContrasena.Text = "Contraseña";
             // 
             // frmLogin
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(244, 249, 252);
+            BackColor = Color.White;
             ClientSize = new Size(800, 450);
             Controls.Add(lblContrasena);
             Controls.Add(btnSalir);
@@ -154,18 +154,18 @@
             Controls.Add(lblUsuario);
             Controls.Add(txtContrasena);
             Controls.Add(txtNombreUsuario);
-            Controls.Add(ptbLogo);
+            Controls.Add(pcbLogo);
             Margin = new Padding(4, 5, 4, 5);
             Name = "frmLogin";
             Text = "frmLogin";
-            ((System.ComponentModel.ISupportInitialize)ptbLogo).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcbLogo).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private PictureBox ptbLogo;
+        private PictureBox pcbLogo;
 		private TextBox txtNombreUsuario;
 		private TextBox txtContrasena;
 		private Label lblUsuario;

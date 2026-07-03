@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ptbSuperior = new PictureBox();
-            ptbMenu = new PictureBox();
+            pcbSuperior = new PictureBox();
+            pcbMenu = new PictureBox();
             btnInicio = new Button();
             btnRegistroPacientes = new Button();
             btnAgendaCitas = new Button();
@@ -37,35 +37,35 @@
             btnHistorialMedico = new Button();
             pnlContenido = new Panel();
             label1 = new Label();
-            dataGridView1 = new DataGridView();
+            dgvRecientes = new DataGridView();
             btnSalir = new Button();
-            ((System.ComponentModel.ISupportInitialize)ptbSuperior).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)ptbMenu).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcbSuperior).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcbMenu).BeginInit();
             pnlContenido.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvRecientes).BeginInit();
             SuspendLayout();
             // 
-            // ptbSuperior
+            // pcbSuperior
             // 
-            ptbSuperior.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_53_PM__1_;
-            ptbSuperior.BackgroundImageLayout = ImageLayout.Stretch;
-            ptbSuperior.Location = new Point(-1, -2);
-            ptbSuperior.Margin = new Padding(4, 5, 4, 5);
-            ptbSuperior.Name = "ptbSuperior";
-            ptbSuperior.Size = new Size(1896, 175);
-            ptbSuperior.TabIndex = 0;
-            ptbSuperior.TabStop = false;
+            pcbSuperior.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_53_PM__1_;
+            pcbSuperior.BackgroundImageLayout = ImageLayout.Stretch;
+            pcbSuperior.Location = new Point(-1, -2);
+            pcbSuperior.Margin = new Padding(4, 5, 4, 5);
+            pcbSuperior.Name = "pcbSuperior";
+            pcbSuperior.Size = new Size(1896, 175);
+            pcbSuperior.TabIndex = 0;
+            pcbSuperior.TabStop = false;
             // 
-            // ptbMenu
+            // pcbMenu
             // 
-            ptbMenu.Image = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_53_PM;
-            ptbMenu.Location = new Point(-1, 168);
-            ptbMenu.Margin = new Padding(4, 5, 4, 5);
-            ptbMenu.Name = "ptbMenu";
-            ptbMenu.Size = new Size(233, 857);
-            ptbMenu.SizeMode = PictureBoxSizeMode.StretchImage;
-            ptbMenu.TabIndex = 1;
-            ptbMenu.TabStop = false;
+            pcbMenu.Image = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_53_PM;
+            pcbMenu.Location = new Point(-1, 168);
+            pcbMenu.Margin = new Padding(4, 5, 4, 5);
+            pcbMenu.Name = "pcbMenu";
+            pcbMenu.Size = new Size(233, 857);
+            pcbMenu.SizeMode = PictureBoxSizeMode.StretchImage;
+            pcbMenu.TabIndex = 1;
+            pcbMenu.TabStop = false;
             // 
             // btnInicio
             // 
@@ -126,7 +126,7 @@
             // 
             pnlContenido.BackColor = Color.White;
             pnlContenido.Controls.Add(label1);
-            pnlContenido.Controls.Add(dataGridView1);
+            pnlContenido.Controls.Add(dgvRecientes);
             pnlContenido.Location = new Point(229, 168);
             pnlContenido.Margin = new Padding(4, 5, 4, 5);
             pnlContenido.Name = "pnlContenido";
@@ -144,14 +144,14 @@
             label1.Text = "Bienvenidos a Vital Dent";
             label1.Click += label1_Click;
             // 
-            // dataGridView1
+            // dgvRecientes
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(132, 116);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(1421, 628);
-            dataGridView1.TabIndex = 0;
+            dgvRecientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvRecientes.Location = new Point(132, 116);
+            dgvRecientes.Name = "dgvRecientes";
+            dgvRecientes.RowHeadersWidth = 62;
+            dgvRecientes.Size = new Size(1420, 630);
+            dgvRecientes.TabIndex = 0;
             // 
             // btnSalir
             // 
@@ -175,23 +175,23 @@
             Controls.Add(btnAgendaCitas);
             Controls.Add(btnRegistroPacientes);
             Controls.Add(btnInicio);
-            Controls.Add(ptbMenu);
-            Controls.Add(ptbSuperior);
+            Controls.Add(pcbMenu);
+            Controls.Add(pcbSuperior);
             Margin = new Padding(4, 5, 4, 5);
             Name = "frmInicio";
             Text = "frmInicio";
-            ((System.ComponentModel.ISupportInitialize)ptbSuperior).EndInit();
-            ((System.ComponentModel.ISupportInitialize)ptbMenu).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcbSuperior).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcbMenu).EndInit();
             pnlContenido.ResumeLayout(false);
             pnlContenido.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvRecientes).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private PictureBox ptbSuperior;
-		private PictureBox ptbMenu;
+        private PictureBox pcbSuperior;
+		private PictureBox pcbMenu;
 		private Button btnInicio;
 		private Button btnRegistroPacientes;
 		private Button btnAgendaCitas;
@@ -199,7 +199,7 @@
 		private Button btnHistorialMedico;
 		private Panel pnlContenido;
         private Button btnSalir;
-        private DataGridView dataGridView1;
+        private DataGridView dgvRecientes;
         private Label label1;
     }
 }

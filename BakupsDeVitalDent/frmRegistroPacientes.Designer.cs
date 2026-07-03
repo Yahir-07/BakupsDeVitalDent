@@ -59,10 +59,13 @@
             txtTipoSangre = new ComboBox();
             btnGuardar = new Button();
             btnCancelar = new Button();
+            lblAlergia = new Label();
+            txtAlergia = new TextBox();
             SuspendLayout();
             // 
             // txtNombre
             // 
+            txtNombre.BackColor = Color.White;
             txtNombre.Location = new Point(376, 92);
             txtNombre.Margin = new Padding(4, 5, 4, 5);
             txtNombre.Multiline = true;
@@ -173,7 +176,7 @@
             // 
             lblMunicipio.AutoSize = true;
             lblMunicipio.Font = new Font("Segoe UI", 11.25F);
-            lblMunicipio.Location = new Point(161, 439);
+            lblMunicipio.Location = new Point(161, 477);
             lblMunicipio.Margin = new Padding(4, 0, 4, 0);
             lblMunicipio.Name = "lblMunicipio";
             lblMunicipio.Size = new Size(117, 31);
@@ -184,7 +187,7 @@
             // 
             lblCodigoPostal.AutoSize = true;
             lblCodigoPostal.Font = new Font("Segoe UI", 11.25F);
-            lblCodigoPostal.Location = new Point(159, 484);
+            lblCodigoPostal.Location = new Point(159, 517);
             lblCodigoPostal.Margin = new Padding(4, 0, 4, 0);
             lblCodigoPostal.Name = "lblCodigoPostal";
             lblCodigoPostal.Size = new Size(155, 31);
@@ -195,7 +198,7 @@
             // 
             lblLocalidad.AutoSize = true;
             lblLocalidad.Font = new Font("Segoe UI", 11.25F);
-            lblLocalidad.Location = new Point(159, 525);
+            lblLocalidad.Location = new Point(161, 558);
             lblLocalidad.Margin = new Padding(4, 0, 4, 0);
             lblLocalidad.Name = "lblLocalidad";
             lblLocalidad.Size = new Size(113, 31);
@@ -206,7 +209,7 @@
             // 
             lblColonia.AutoSize = true;
             lblColonia.Font = new Font("Segoe UI", 11.25F);
-            lblColonia.Location = new Point(159, 566);
+            lblColonia.Location = new Point(159, 599);
             lblColonia.Margin = new Padding(4, 0, 4, 0);
             lblColonia.Name = "lblColonia";
             lblColonia.Size = new Size(91, 31);
@@ -217,7 +220,7 @@
             // 
             lblCalle.AutoSize = true;
             lblCalle.Font = new Font("Segoe UI", 11.25F);
-            lblCalle.Location = new Point(163, 607);
+            lblCalle.Location = new Point(161, 640);
             lblCalle.Margin = new Padding(4, 0, 4, 0);
             lblCalle.Name = "lblCalle";
             lblCalle.Size = new Size(64, 31);
@@ -248,7 +251,7 @@
             txtEdad.Margin = new Padding(4, 5, 4, 5);
             txtEdad.Multiline = true;
             txtEdad.Name = "txtEdad";
-            txtEdad.Size = new Size(418, 31);
+            txtEdad.Size = new Size(410, 30);
             txtEdad.TabIndex = 25;
             // 
             // txtTelefono
@@ -271,7 +274,7 @@
             // 
             // txtMunicipio
             // 
-            txtMunicipio.Location = new Point(377, 441);
+            txtMunicipio.Location = new Point(380, 479);
             txtMunicipio.Margin = new Padding(4, 5, 4, 5);
             txtMunicipio.Multiline = true;
             txtMunicipio.Name = "txtMunicipio";
@@ -280,7 +283,7 @@
             // 
             // txtCodigoPostal
             // 
-            txtCodigoPostal.Location = new Point(376, 484);
+            txtCodigoPostal.Location = new Point(380, 519);
             txtCodigoPostal.Margin = new Padding(4, 5, 4, 5);
             txtCodigoPostal.Multiline = true;
             txtCodigoPostal.Name = "txtCodigoPostal";
@@ -289,7 +292,7 @@
             // 
             // txtLocalidad
             // 
-            txtLocalidad.Location = new Point(376, 525);
+            txtLocalidad.Location = new Point(376, 559);
             txtLocalidad.Margin = new Padding(4, 5, 4, 5);
             txtLocalidad.Multiline = true;
             txtLocalidad.Name = "txtLocalidad";
@@ -298,7 +301,7 @@
             // 
             // txtColonia
             // 
-            txtColonia.Location = new Point(377, 566);
+            txtColonia.Location = new Point(380, 599);
             txtColonia.Margin = new Padding(4, 5, 4, 5);
             txtColonia.Multiline = true;
             txtColonia.Name = "txtColonia";
@@ -307,7 +310,7 @@
             // 
             // txtCalle
             // 
-            txtCalle.Location = new Point(377, 607);
+            txtCalle.Location = new Point(377, 640);
             txtCalle.Margin = new Padding(4, 5, 4, 5);
             txtCalle.Multiline = true;
             txtCalle.Name = "txtCalle";
@@ -332,7 +335,7 @@
             cmbGenero.Location = new Point(963, 218);
             cmbGenero.Margin = new Padding(4, 5, 4, 5);
             cmbGenero.Name = "cmbGenero";
-            cmbGenero.Size = new Size(433, 33);
+            cmbGenero.Size = new Size(430, 33);
             cmbGenero.TabIndex = 37;
             // 
             // dtpFechaNacimiento
@@ -351,7 +354,7 @@
             txtTipoSangre.Location = new Point(377, 399);
             txtTipoSangre.Margin = new Padding(4, 5, 4, 5);
             txtTipoSangre.Name = "txtTipoSangre";
-            txtTipoSangre.Size = new Size(418, 33);
+            txtTipoSangre.Size = new Size(430, 33);
             txtTipoSangre.TabIndex = 39;
             // 
             // btnGuardar
@@ -376,11 +379,31 @@
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = false;
             // 
+            // lblAlergia
+            // 
+            lblAlergia.AutoSize = true;
+            lblAlergia.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblAlergia.Location = new Point(166, 443);
+            lblAlergia.Name = "lblAlergia";
+            lblAlergia.Size = new Size(88, 32);
+            lblAlergia.TabIndex = 42;
+            lblAlergia.Text = "Alergia";
+            // 
+            // txtAlergia
+            // 
+            txtAlergia.Location = new Point(380, 443);
+            txtAlergia.Name = "txtAlergia";
+            txtAlergia.Size = new Size(1020, 31);
+            txtAlergia.TabIndex = 43;
+            // 
             // frmRegistroPacientes
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(1644, 801);
+            Controls.Add(txtAlergia);
+            Controls.Add(lblAlergia);
             Controls.Add(btnCancelar);
             Controls.Add(btnGuardar);
             Controls.Add(txtTipoSangre);
@@ -452,5 +475,7 @@
 		private ComboBox txtTipoSangre;
 		private Button btnGuardar;
 		private Button btnCancelar;
-	}
+        private Label lblAlergia;
+        private TextBox txtAlergia;
+    }
 }

@@ -57,7 +57,7 @@
             txtBuscarPacientes.Multiline = true;
             txtBuscarPacientes.Name = "txtBuscarPacientes";
             txtBuscarPacientes.PlaceholderText = "Buscar Paciente";
-            txtBuscarPacientes.Size = new Size(905, 39);
+            txtBuscarPacientes.Size = new Size(900, 39);
             txtBuscarPacientes.TabIndex = 1;
             // 
             // lblAgendaCitas
@@ -110,7 +110,7 @@
             txtNombre.Margin = new Padding(4, 5, 4, 5);
             txtNombre.Multiline = true;
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(1113, 31);
+            txtNombre.Size = new Size(1020, 31);
             txtNombre.TabIndex = 43;
             // 
             // dtpFechaCita
@@ -150,7 +150,7 @@
             txtMotivoCita.Margin = new Padding(4, 5, 4, 5);
             txtMotivoCita.Multiline = true;
             txtMotivoCita.Name = "txtMotivoCita";
-            txtMotivoCita.Size = new Size(1113, 99);
+            txtMotivoCita.Size = new Size(1020, 100);
             txtMotivoCita.TabIndex = 47;
             // 
             // btnCancelar
@@ -241,6 +241,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(1644, 801);
             Controls.Add(btnCancelarCita);
             Controls.Add(lblHoraCita);
