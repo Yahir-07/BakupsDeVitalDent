@@ -44,10 +44,8 @@
             txtTratamiento = new TextBox();
             lblObservaciones = new Label();
             txtObservaciones = new TextBox();
-            btnDescargar = new Button();
             btnLimpiar = new Button();
-            lblMedicameto = new Label();
-            txtMedicamento = new TextBox();
+            btnDescarga = new Button();
             ((System.ComponentModel.ISupportInitialize)ptbLupa).BeginInit();
             SuspendLayout();
             // 
@@ -65,7 +63,7 @@
             // ptbLupa
             // 
             ptbLupa.Image = Properties.Resources.WhatsApp_Image_2026_06_23_at_2_04_17_PM__1_;
-            ptbLupa.Location = new Point(164, 90);
+            ptbLupa.Location = new Point(221, 93);
             ptbLupa.Margin = new Padding(4, 5, 4, 5);
             ptbLupa.Name = "ptbLupa";
             ptbLupa.Size = new Size(34, 42);
@@ -87,12 +85,12 @@
             // txtBuscarPaciente
             // 
             txtBuscarPaciente.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtBuscarPaciente.Location = new Point(206, 90);
+            txtBuscarPaciente.Location = new Point(275, 93);
             txtBuscarPaciente.Margin = new Padding(4, 5, 4, 5);
             txtBuscarPaciente.Multiline = true;
             txtBuscarPaciente.Name = "txtBuscarPaciente";
             txtBuscarPaciente.PlaceholderText = "Buscar Paciente";
-            txtBuscarPaciente.Size = new Size(987, 39);
+            txtBuscarPaciente.Size = new Size(900, 39);
             txtBuscarPaciente.TabIndex = 48;
             // 
             // lblNombre
@@ -199,7 +197,7 @@
             // 
             lblObservaciones.AutoSize = true;
             lblObservaciones.Font = new Font("Segoe UI", 11.25F);
-            lblObservaciones.Location = new Point(119, 401);
+            lblObservaciones.Location = new Point(119, 367);
             lblObservaciones.Margin = new Padding(4, 0, 4, 0);
             lblObservaciones.Name = "lblObservaciones";
             lblObservaciones.Size = new Size(163, 31);
@@ -208,66 +206,45 @@
             // 
             // txtObservaciones
             // 
-            txtObservaciones.Location = new Point(381, 403);
+            txtObservaciones.Location = new Point(381, 369);
             txtObservaciones.Margin = new Padding(4, 5, 4, 5);
             txtObservaciones.Multiline = true;
             txtObservaciones.Name = "txtObservaciones";
             txtObservaciones.Size = new Size(1020, 309);
             txtObservaciones.TabIndex = 63;
             // 
-            // btnDescargar
-            // 
-            btnDescargar.BackColor = Color.FromArgb(255, 205, 210);
-            btnDescargar.Location = new Point(1187, 735);
-            btnDescargar.Margin = new Padding(4, 5, 4, 5);
-            btnDescargar.Name = "btnDescargar";
-            btnDescargar.Size = new Size(200, 45);
-            btnDescargar.TabIndex = 66;
-            btnDescargar.Text = "Limpiar";
-            btnDescargar.UseVisualStyleBackColor = false;
-            // 
             // btnLimpiar
             // 
-            btnLimpiar.BackColor = Color.FromArgb(244, 249, 252);
-            btnLimpiar.Location = new Point(965, 735);
+            btnLimpiar.BackColor = Color.FromArgb(255, 205, 210);
+            btnLimpiar.Location = new Point(1201, 688);
             btnLimpiar.Margin = new Padding(4, 5, 4, 5);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(200, 45);
-            btnLimpiar.TabIndex = 65;
-            btnLimpiar.Text = "Descargar ";
+            btnLimpiar.TabIndex = 66;
+            btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = false;
             // 
-            // lblMedicameto
+            // btnDescarga
             // 
-            lblMedicameto.AutoSize = true;
-            lblMedicameto.Font = new Font("Segoe UI", 11.25F);
-            lblMedicameto.Location = new Point(119, 357);
-            lblMedicameto.Margin = new Padding(4, 0, 4, 0);
-            lblMedicameto.Name = "lblMedicameto";
-            lblMedicameto.Size = new Size(156, 31);
-            lblMedicameto.TabIndex = 62;
-            lblMedicameto.Text = "Medicamento";
-            // 
-            // txtMedicamento
-            // 
-            txtMedicamento.Location = new Point(381, 355);
-            txtMedicamento.Margin = new Padding(4, 5, 4, 5);
-            txtMedicamento.Multiline = true;
-            txtMedicamento.Name = "txtMedicamento";
-            txtMedicamento.Size = new Size(1020, 30);
-            txtMedicamento.TabIndex = 61;
+            btnDescarga.BackColor = Color.FromArgb(244, 249, 252);
+            btnDescarga.Location = new Point(993, 688);
+            btnDescarga.Margin = new Padding(4, 5, 4, 5);
+            btnDescarga.Name = "btnDescarga";
+            btnDescarga.Size = new Size(200, 45);
+            btnDescarga.TabIndex = 65;
+            btnDescarga.Text = "Descargar ";
+            btnDescarga.UseVisualStyleBackColor = false;
             // 
             // frmHistorialMedico
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(1644, 801);
-            Controls.Add(btnDescargar);
             Controls.Add(btnLimpiar);
+            Controls.Add(btnDescarga);
             Controls.Add(lblObservaciones);
             Controls.Add(txtObservaciones);
-            Controls.Add(lblMedicameto);
-            Controls.Add(txtMedicamento);
             Controls.Add(lblTratamiento);
             Controls.Add(txtTratamiento);
             Controls.Add(lblDiagnostico);
@@ -308,9 +285,7 @@
 		private TextBox txtTratamiento;
 		private Label lblObservaciones;
 		private TextBox txtObservaciones;
-		private Button btnDescargar;
 		private Button btnLimpiar;
-        private Label lblMedicameto;
-        private TextBox txtMedicamento;
+		private Button btnDescarga;
     }
 }

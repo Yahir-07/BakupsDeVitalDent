@@ -90,7 +90,7 @@
             dgvPacientes.Margin = new Padding(4, 5, 4, 5);
             dgvPacientes.Name = "dgvPacientes";
             dgvPacientes.RowHeadersWidth = 62;
-            dgvPacientes.Size = new Size(1328, 539);
+            dgvPacientes.Size = new Size(1300, 500);
             dgvPacientes.TabIndex = 47;
             // 
             // btnSiguiente
@@ -119,6 +119,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(1644, 801);
             Controls.Add(btnSiguiente);
             Controls.Add(btnAnterior);
