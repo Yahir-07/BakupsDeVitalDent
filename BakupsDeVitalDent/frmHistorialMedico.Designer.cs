@@ -287,7 +287,5 @@
 		private TextBox txtObservaciones;
 		private Button btnLimpiar;
 		private Button btnDescarga;
-        private Label lblMedicameto;
-        private TextBox txtMedicamento;
     }
 }

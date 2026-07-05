@@ -11,5 +11,17 @@ namespace BakupsDeVitalDent
         {
 
         }
+
+        private void btnGeneral_MouseDown(object sender, MouseEventArgs e)
+        {
+            Button btn = (Button)sender;
+            btn.Location = new Point(btn.Location.X + 3, btn.Location.Y + 3);
+        }
+
+        private void btnGeneral_MouseUp(object sender, MouseEventArgs e)
+        {
+            Button btn = (Button)sender;
+            btn.Location = new Point(btn.Location.X - 3, btn.Location.Y - 3);
+        }
     }
 }

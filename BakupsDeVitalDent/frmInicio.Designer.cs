@@ -69,7 +69,7 @@
             // 
             // btnInicio
             // 
-            btnInicio.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM__1_;
+            btnInicio.BackgroundImage = Properties.Resources.Group_60;
             btnInicio.BackgroundImageLayout = ImageLayout.Stretch;
             btnInicio.Location = new Point(38, 199);
             btnInicio.Margin = new Padding(4, 5, 4, 5);
@@ -77,10 +77,12 @@
             btnInicio.Size = new Size(150, 75);
             btnInicio.TabIndex = 2;
             btnInicio.UseVisualStyleBackColor = true;
+            btnInicio.MouseDown += btnGeneral_MouseDown;
+            btnInicio.MouseUp += btnGeneral_MouseUp;
             // 
             // btnRegistroPacientes
             // 
-            btnRegistroPacientes.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM;
+            btnRegistroPacientes.BackgroundImage = Properties.Resources.Group_61;
             btnRegistroPacientes.BackgroundImageLayout = ImageLayout.Stretch;
             btnRegistroPacientes.Location = new Point(38, 284);
             btnRegistroPacientes.Margin = new Padding(4, 5, 4, 5);
@@ -88,10 +90,12 @@
             btnRegistroPacientes.Size = new Size(150, 75);
             btnRegistroPacientes.TabIndex = 3;
             btnRegistroPacientes.UseVisualStyleBackColor = true;
+            btnRegistroPacientes.MouseDown += btnGeneral_MouseDown;
+            btnRegistroPacientes.MouseUp += btnGeneral_MouseUp;
             // 
             // btnAgendaCitas
             // 
-            btnAgendaCitas.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM__2_;
+            btnAgendaCitas.BackgroundImage = Properties.Resources.Group_62;
             btnAgendaCitas.BackgroundImageLayout = ImageLayout.Stretch;
             btnAgendaCitas.Location = new Point(38, 369);
             btnAgendaCitas.Margin = new Padding(4, 5, 4, 5);
@@ -99,10 +103,12 @@
             btnAgendaCitas.Size = new Size(150, 75);
             btnAgendaCitas.TabIndex = 4;
             btnAgendaCitas.UseVisualStyleBackColor = true;
+            btnAgendaCitas.MouseDown += btnGeneral_MouseDown;
+            btnAgendaCitas.MouseUp += btnGeneral_MouseUp;
             // 
             // btnConsulta
             // 
-            btnConsulta.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM__4_;
+            btnConsulta.BackgroundImage = Properties.Resources.Group_64;
             btnConsulta.BackgroundImageLayout = ImageLayout.Stretch;
             btnConsulta.Location = new Point(38, 454);
             btnConsulta.Margin = new Padding(4, 5, 4, 5);
@@ -110,10 +116,12 @@
             btnConsulta.Size = new Size(150, 75);
             btnConsulta.TabIndex = 5;
             btnConsulta.UseVisualStyleBackColor = true;
+            btnConsulta.MouseDown += btnGeneral_MouseDown;
+            btnConsulta.MouseUp += btnGeneral_MouseUp;
             // 
             // btnHistorialMedico
             // 
-            btnHistorialMedico.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_22_at_3_27_54_PM__3_;
+            btnHistorialMedico.BackgroundImage = Properties.Resources.Group_63;
             btnHistorialMedico.BackgroundImageLayout = ImageLayout.Stretch;
             btnHistorialMedico.Location = new Point(38, 539);
             btnHistorialMedico.Margin = new Padding(4, 5, 4, 5);
@@ -121,6 +129,8 @@
             btnHistorialMedico.Size = new Size(150, 75);
             btnHistorialMedico.TabIndex = 6;
             btnHistorialMedico.UseVisualStyleBackColor = true;
+            btnHistorialMedico.MouseDown += btnGeneral_MouseDown;
+            btnHistorialMedico.MouseUp += btnGeneral_MouseUp;
             // 
             // pnlContenido
             // 
@@ -155,13 +165,15 @@
             // 
             // btnSalir
             // 
-            btnSalir.BackgroundImage = Properties.Resources.Group_59;
+            btnSalir.BackgroundImage = Properties.Resources.Group_65;
             btnSalir.BackgroundImageLayout = ImageLayout.Stretch;
             btnSalir.Location = new Point(38, 822);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(150, 75);
             btnSalir.TabIndex = 8;
             btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.MouseDown += btnGeneral_MouseDown;
+            btnSalir.MouseUp += btnGeneral_MouseUp;
             // 
             // frmInicio
             // 
