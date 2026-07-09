@@ -11,15 +11,16 @@ namespace BakupsDeVitalDent
             ApplicationConfiguration.Initialize();
 
             // Mostrar primero el login como ventana modal
-            using (frmLogin login = new frmLogin())
-            {
-                if (login.ShowDialog() == DialogResult.OK)
-                {
-                    // Si el login fue exitoso, correr el principal
-                    Application.Run(new frmPrincipal());
-                }
-                
-                }
+            /* using (frmLogin login = new frmLogin())
+             {
+                 if (login.ShowDialog() == DialogResult.OK)
+                 {
+                     // Si el login fue exitoso, correr el principal
+                     Application.Run(new frmPrincipal());
+                 }
+
+             }*/
+            Application.Run(new frmAgendaCitas());
         }
     }
 }
