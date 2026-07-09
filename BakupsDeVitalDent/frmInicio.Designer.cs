@@ -30,6 +30,10 @@
         {
             lblBienvenido = new Label();
             dgvRecientes = new DataGridView();
+            btnNuevoPaciente = new Button();
+            button1 = new Button();
+            button2 = new Button();
+            btnActualizar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvRecientes).BeginInit();
             SuspendLayout();
             // 
@@ -37,29 +41,76 @@
             // 
             lblBienvenido.AutoSize = true;
             lblBienvenido.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblBienvenido.Location = new Point(36, 34);
+            lblBienvenido.Location = new Point(29, 27);
+            lblBienvenido.Margin = new Padding(2, 0, 2, 0);
             lblBienvenido.Name = "lblBienvenido";
-            lblBienvenido.Size = new Size(361, 38);
+            lblBienvenido.Size = new Size(301, 32);
             lblBienvenido.TabIndex = 0;
             lblBienvenido.Text = "Bienvenidos a Vital Dent";
             // 
             // dgvRecientes
             // 
             dgvRecientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvRecientes.Location = new Point(181, 116);
+            dgvRecientes.Location = new Point(145, 93);
+            dgvRecientes.Margin = new Padding(2, 2, 2, 2);
             dgvRecientes.Name = "dgvRecientes";
             dgvRecientes.RowHeadersWidth = 62;
-            dgvRecientes.Size = new Size(1327, 568);
+            dgvRecientes.Size = new Size(1062, 454);
             dgvRecientes.TabIndex = 1;
+            // 
+            // btnNuevoPaciente
+            // 
+            btnNuevoPaciente.BackColor = Color.FromArgb(244, 249, 252);
+            btnNuevoPaciente.Location = new Point(805, 552);
+            btnNuevoPaciente.Name = "btnNuevoPaciente";
+            btnNuevoPaciente.Size = new Size(200, 45);
+            btnNuevoPaciente.TabIndex = 45;
+            btnNuevoPaciente.Text = "Nuevo Paciente";
+            btnNuevoPaciente.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(244, 249, 252);
+            button1.Location = new Point(1011, 552);
+            button1.Name = "button1";
+            button1.Size = new Size(200, 45);
+            button1.TabIndex = 46;
+            button1.Text = "Eliminar Paciente";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.FromArgb(244, 249, 252);
+            button2.Location = new Point(599, 552);
+            button2.Name = "button2";
+            button2.Size = new Size(200, 45);
+            button2.TabIndex = 47;
+            button2.Text = "Modificar Paciente";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // btnActualizar
+            // 
+            btnActualizar.BackColor = Color.FromArgb(244, 249, 252);
+            btnActualizar.Location = new Point(393, 552);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(200, 45);
+            btnActualizar.TabIndex = 48;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = false;
             // 
             // frmInicio
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1644, 784);
+            ClientSize = new Size(1315, 627);
+            Controls.Add(btnActualizar);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(btnNuevoPaciente);
             Controls.Add(dgvRecientes);
             Controls.Add(lblBienvenido);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "frmInicio";
             Text = "Inicio";
             ((System.ComponentModel.ISupportInitialize)dgvRecientes).EndInit();
@@ -71,5 +122,9 @@
 
         private Label lblBienvenido;
         private DataGridView dgvRecientes;
+        private Button btnNuevoPaciente;
+        private Button button1;
+        private Button button2;
+        private Button btnActualizar;
     }
 }
