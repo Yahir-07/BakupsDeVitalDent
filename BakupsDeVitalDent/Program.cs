@@ -16,9 +16,10 @@ namespace BakupsDeVitalDent
                 if (login.ShowDialog() == DialogResult.OK)
                 {
                     // Si el login fue exitoso, correr el principal
-                    Application.Run(new frmInicio());
+                    Application.Run(new frmPrincipal());
                 }
-            }
+                
+                }
         }
     }
 }
