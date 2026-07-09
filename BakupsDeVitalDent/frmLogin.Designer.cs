@@ -43,10 +43,10 @@
             // pcbLogo
             // 
             pcbLogo.Image = Properties.Resources.WhatsApp_Image_2026_06_23_at_9_46_14_PM;
-            pcbLogo.Location = new Point(288, 36);
-            pcbLogo.Margin = new Padding(4, 5, 4, 5);
+            pcbLogo.Location = new Point(230, 29);
+            pcbLogo.Margin = new Padding(3, 4, 3, 4);
             pcbLogo.Name = "pcbLogo";
-            pcbLogo.Size = new Size(284, 191);
+            pcbLogo.Size = new Size(227, 153);
             pcbLogo.SizeMode = PictureBoxSizeMode.StretchImage;
             pcbLogo.TabIndex = 0;
             pcbLogo.TabStop = false;
@@ -54,23 +54,23 @@
             // txtNombreUsuario
             // 
             txtNombreUsuario.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtNombreUsuario.Location = new Point(322, 238);
-            txtNombreUsuario.Margin = new Padding(4, 5, 4, 5);
+            txtNombreUsuario.Location = new Point(258, 190);
+            txtNombreUsuario.Margin = new Padding(3, 4, 3, 4);
             txtNombreUsuario.Multiline = true;
             txtNombreUsuario.Name = "txtNombreUsuario";
             txtNombreUsuario.PlaceholderText = "Usuario";
-            txtNombreUsuario.Size = new Size(370, 39);
+            txtNombreUsuario.Size = new Size(297, 32);
             txtNombreUsuario.TabIndex = 1;
             // 
             // txtContrasena
             // 
             txtContrasena.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtContrasena.Location = new Point(322, 291);
-            txtContrasena.Margin = new Padding(4, 5, 4, 5);
+            txtContrasena.Location = new Point(258, 233);
+            txtContrasena.Margin = new Padding(3, 4, 3, 4);
             txtContrasena.Name = "txtContrasena";
             txtContrasena.PlaceholderText = "Contraseña";
             txtContrasena.ShortcutsEnabled = false;
-            txtContrasena.Size = new Size(370, 39);
+            txtContrasena.Size = new Size(297, 34);
             txtContrasena.TabIndex = 2;
             txtContrasena.UseSystemPasswordChar = true;
             // 
@@ -78,10 +78,9 @@
             // 
             lblUsuario.AutoSize = true;
             lblUsuario.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblUsuario.Location = new Point(186, 249);
-            lblUsuario.Margin = new Padding(4, 0, 4, 0);
+            lblUsuario.Location = new Point(149, 199);
             lblUsuario.Name = "lblUsuario";
-            lblUsuario.Size = new Size(102, 32);
+            lblUsuario.Size = new Size(84, 28);
             lblUsuario.TabIndex = 3;
             lblUsuario.Text = "Usuario";
             // 
@@ -99,10 +98,10 @@
             // 
             btnMostrarContrasena.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_23_at_2_04_16_PM;
             btnMostrarContrasena.BackgroundImageLayout = ImageLayout.Stretch;
-            btnMostrarContrasena.Location = new Point(818, 528);
-            btnMostrarContrasena.Margin = new Padding(4, 5, 4, 5);
+            btnMostrarContrasena.Location = new Point(654, 422);
+            btnMostrarContrasena.Margin = new Padding(3, 4, 3, 4);
             btnMostrarContrasena.Name = "btnMostrarContrasena";
-            btnMostrarContrasena.Size = new Size(48, 52);
+            btnMostrarContrasena.Size = new Size(38, 42);
             btnMostrarContrasena.TabIndex = 5;
             btnMostrarContrasena.UseVisualStyleBackColor = true;
             // 
@@ -110,10 +109,10 @@
             // 
             btnSalir.BackColor = Color.FromArgb(255, 205, 210);
             btnSalir.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSalir.Location = new Point(441, 340);
-            btnSalir.Margin = new Padding(4, 5, 4, 5);
+            btnSalir.Location = new Point(353, 272);
+            btnSalir.Margin = new Padding(3, 4, 3, 4);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(200, 45);
+            btnSalir.Size = new Size(160, 36);
             btnSalir.TabIndex = 54;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = false;
@@ -123,10 +122,10 @@
             // 
             btnIniciarSesion.BackColor = Color.FromArgb(244, 249, 252);
             btnIniciarSesion.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnIniciarSesion.Location = new Point(212, 340);
-            btnIniciarSesion.Margin = new Padding(4, 5, 4, 5);
+            btnIniciarSesion.Location = new Point(170, 272);
+            btnIniciarSesion.Margin = new Padding(3, 4, 3, 4);
             btnIniciarSesion.Name = "btnIniciarSesion";
-            btnIniciarSesion.Size = new Size(200, 45);
+            btnIniciarSesion.Size = new Size(160, 36);
             btnIniciarSesion.TabIndex = 53;
             btnIniciarSesion.Text = "Iniciar Sesión";
             btnIniciarSesion.UseVisualStyleBackColor = false;
@@ -136,19 +135,18 @@
             // 
             lblContrasena.AutoSize = true;
             lblContrasena.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblContrasena.Location = new Point(171, 298);
-            lblContrasena.Margin = new Padding(4, 0, 4, 0);
+            lblContrasena.Location = new Point(137, 238);
             lblContrasena.Name = "lblContrasena";
-            lblContrasena.Size = new Size(143, 32);
+            lblContrasena.Size = new Size(118, 28);
             lblContrasena.TabIndex = 55;
             lblContrasena.Text = "Contraseña";
             // 
             // frmLogin
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(640, 360);
             Controls.Add(lblContrasena);
             Controls.Add(btnSalir);
             Controls.Add(btnIniciarSesion);
@@ -157,7 +155,7 @@
             Controls.Add(txtContrasena);
             Controls.Add(txtNombreUsuario);
             Controls.Add(pcbLogo);
-            Margin = new Padding(4, 5, 4, 5);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frmLogin";
             Text = "Acceso al sistema";
             ((System.ComponentModel.ISupportInitialize)pcbLogo).EndInit();
