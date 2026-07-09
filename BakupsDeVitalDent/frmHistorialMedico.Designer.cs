@@ -240,7 +240,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1644, 801);
+            ClientSize = new Size(1644, 784);
             Controls.Add(btnLimpiar);
             Controls.Add(btnDescarga);
             Controls.Add(lblObservaciones);
@@ -261,7 +261,7 @@
             Controls.Add(lblHistorialMedico);
             Margin = new Padding(4, 5, 4, 5);
             Name = "frmHistorialMedico";
-            Text = "frmHistorialMedico";
+            Text = "HistorialMedico";
             ((System.ComponentModel.ISupportInitialize)ptbLupa).EndInit();
             ResumeLayout(false);
             PerformLayout();

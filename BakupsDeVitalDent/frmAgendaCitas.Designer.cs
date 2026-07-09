@@ -179,7 +179,7 @@
             // 
             mcCalendarioCitas.CalendarDimensions = new Size(3, 1);
             mcCalendarioCitas.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            mcCalendarioCitas.Location = new Point(289, 466);
+            mcCalendarioCitas.Location = new Point(289, 436);
             mcCalendarioCitas.Margin = new Padding(13, 15, 13, 15);
             mcCalendarioCitas.Name = "mcCalendarioCitas";
             mcCalendarioCitas.TabIndex = 51;
@@ -188,7 +188,7 @@
             // 
             lblCalendarioCita.AutoSize = true;
             lblCalendarioCita.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblCalendarioCita.Location = new Point(45, 413);
+            lblCalendarioCita.Location = new Point(45, 397);
             lblCalendarioCita.Margin = new Padding(4, 0, 4, 0);
             lblCalendarioCita.Name = "lblCalendarioCita";
             lblCalendarioCita.Size = new Size(264, 38);
@@ -230,7 +230,7 @@
             // btnCancelarCita
             // 
             btnCancelarCita.BackColor = Color.FromArgb(255, 205, 210);
-            btnCancelarCita.Location = new Point(1256, 726);
+            btnCancelarCita.Location = new Point(1256, 693);
             btnCancelarCita.Name = "btnCancelarCita";
             btnCancelarCita.Size = new Size(200, 45);
             btnCancelarCita.TabIndex = 56;
@@ -242,7 +242,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1644, 801);
+            ClientSize = new Size(1644, 784);
             Controls.Add(btnCancelarCita);
             Controls.Add(lblHoraCita);
             Controls.Add(dtpHoraCita);
@@ -263,7 +263,7 @@
             Controls.Add(txtBuscarPacientes);
             Margin = new Padding(4, 5, 4, 5);
             Name = "frmAgendaCitas";
-            Text = "frmAgendaCitas";
+            Text = "AgendaCitas";
             ((System.ComponentModel.ISupportInitialize)pcbLupa).EndInit();
             ResumeLayout(false);
             PerformLayout();

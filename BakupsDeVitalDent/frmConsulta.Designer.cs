@@ -96,7 +96,7 @@
             // btnSiguiente
             // 
             btnSiguiente.BackColor = Color.FromArgb(244, 249, 252);
-            btnSiguiente.Location = new Point(1307, 730);
+            btnSiguiente.Location = new Point(1295, 700);
             btnSiguiente.Margin = new Padding(4, 5, 4, 5);
             btnSiguiente.Name = "btnSiguiente";
             btnSiguiente.Size = new Size(200, 45);
@@ -107,7 +107,7 @@
             // btnAnterior
             // 
             btnAnterior.BackColor = Color.FromArgb(244, 249, 252);
-            btnAnterior.Location = new Point(1085, 730);
+            btnAnterior.Location = new Point(1084, 700);
             btnAnterior.Margin = new Padding(4, 5, 4, 5);
             btnAnterior.Name = "btnAnterior";
             btnAnterior.Size = new Size(200, 45);
@@ -120,7 +120,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1644, 801);
+            ClientSize = new Size(1644, 784);
             Controls.Add(btnSiguiente);
             Controls.Add(btnAnterior);
             Controls.Add(dgvPacientes);
@@ -130,7 +130,7 @@
             Controls.Add(txtBuscarPacientes);
             Margin = new Padding(4, 5, 4, 5);
             Name = "frmConsulta";
-            Text = "frmConsulta";
+            Text = "Consulta";
             ((System.ComponentModel.ISupportInitialize)pcbLupa).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvPacientes).EndInit();
             ResumeLayout(false);
