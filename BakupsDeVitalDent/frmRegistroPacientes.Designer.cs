@@ -62,16 +62,13 @@
             btnLimpiar = new Button();
             lblAlergia = new Label();
             txtAlergia = new TextBox();
-            lblEstado = new Label();
-            txtEstado = new TextBox();
-            errorProvider1 = new ErrorProvider(components);
-            ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
+            btnNuevoPaciente = new Button();
             SuspendLayout();
             // 
             // txtNombre
             // 
             txtNombre.BackColor = Color.White;
-            txtNombre.Location = new Point(301, 74);
+            txtNombre.Location = new Point(326, 73);
             txtNombre.Margin = new Padding(3, 4, 3, 4);
             txtNombre.Multiline = true;
             txtNombre.Name = "txtNombre";
@@ -123,7 +120,7 @@
             // 
             lblEdad.AutoSize = true;
             lblEdad.Font = new Font("Segoe UI", 11.25F);
-            lblEdad.Location = new Point(130, 214);
+            lblEdad.Location = new Point(129, 176);
             lblEdad.Name = "lblEdad";
             lblEdad.Size = new Size(54, 25);
             lblEdad.TabIndex = 13;
@@ -133,7 +130,7 @@
             // 
             lblFechaNacimiento.AutoSize = true;
             lblFechaNacimiento.Font = new Font("Segoe UI", 11.25F);
-            lblFechaNacimiento.Location = new Point(112, 176);
+            lblFechaNacimiento.Location = new Point(129, 213);
             lblFechaNacimiento.Name = "lblFechaNacimiento";
             lblFechaNacimiento.Size = new Size(186, 25);
             lblFechaNacimiento.TabIndex = 14;
@@ -163,7 +160,7 @@
             // 
             lblTipoSangre.AutoSize = true;
             lblTipoSangre.Font = new Font("Segoe UI", 11.25F);
-            lblTipoSangre.Location = new Point(637, 246);
+            lblTipoSangre.Location = new Point(129, 318);
             lblTipoSangre.Name = "lblTipoSangre";
             lblTipoSangre.Size = new Size(137, 25);
             lblTipoSangre.TabIndex = 17;
@@ -221,7 +218,7 @@
             // 
             // txtApellidoPaterno
             // 
-            txtApellidoPaterno.Location = new Point(302, 106);
+            txtApellidoPaterno.Location = new Point(327, 105);
             txtApellidoPaterno.Margin = new Padding(3, 4, 3, 4);
             txtApellidoPaterno.Multiline = true;
             txtApellidoPaterno.Name = "txtApellidoPaterno";
@@ -231,7 +228,7 @@
             // 
             // txtApellidoMaterno
             // 
-            txtApellidoMaterno.Location = new Point(302, 142);
+            txtApellidoMaterno.Location = new Point(327, 141);
             txtApellidoMaterno.Margin = new Padding(3, 4, 3, 4);
             txtApellidoMaterno.Multiline = true;
             txtApellidoMaterno.Name = "txtApellidoMaterno";
@@ -241,28 +238,27 @@
             // 
             // txtEdad
             // 
-            txtEdad.Location = new Point(301, 215);
+            txtEdad.Location = new Point(327, 173);
             txtEdad.Margin = new Padding(3, 4, 3, 4);
             txtEdad.Multiline = true;
             txtEdad.Name = "txtEdad";
-            txtEdad.ReadOnly = true;
             txtEdad.Size = new Size(329, 25);
             txtEdad.TabIndex = 25;
             txtEdad.TabStop = false;
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(301, 246);
+            txtTelefono.Location = new Point(327, 246);
             txtTelefono.Margin = new Padding(3, 4, 3, 4);
             txtTelefono.Multiline = true;
             txtTelefono.Name = "txtTelefono";
-            txtTelefono.Size = new Size(329, 25);
+            txtTelefono.Size = new Size(817, 25);
             txtTelefono.TabIndex = 27;
             txtTelefono.Validating += txtTelefono_Validating;
             // 
             // txtCorreoElectronico
             // 
-            txtCorreoElectronico.Location = new Point(302, 280);
+            txtCorreoElectronico.Location = new Point(327, 279);
             txtCorreoElectronico.Margin = new Padding(3, 4, 3, 4);
             txtCorreoElectronico.Multiline = true;
             txtCorreoElectronico.Name = "txtCorreoElectronico";
@@ -271,7 +267,7 @@
             // 
             // txtMunicipio
             // 
-            txtMunicipio.Location = new Point(304, 383);
+            txtMunicipio.Location = new Point(329, 382);
             txtMunicipio.Margin = new Padding(3, 4, 3, 4);
             txtMunicipio.Multiline = true;
             txtMunicipio.Name = "txtMunicipio";
@@ -281,7 +277,7 @@
             // 
             // txtCodigoPostal
             // 
-            txtCodigoPostal.Location = new Point(304, 415);
+            txtCodigoPostal.Location = new Point(329, 414);
             txtCodigoPostal.Margin = new Padding(3, 4, 3, 4);
             txtCodigoPostal.Multiline = true;
             txtCodigoPostal.Name = "txtCodigoPostal";
@@ -291,7 +287,7 @@
             // 
             // txtLocalidad
             // 
-            txtLocalidad.Location = new Point(301, 447);
+            txtLocalidad.Location = new Point(326, 446);
             txtLocalidad.Margin = new Padding(3, 4, 3, 4);
             txtLocalidad.Multiline = true;
             txtLocalidad.Name = "txtLocalidad";
@@ -301,21 +297,21 @@
             // 
             // txtColonia
             // 
-            txtColonia.Location = new Point(304, 479);
+            txtColonia.Location = new Point(329, 478);
             txtColonia.Margin = new Padding(3, 4, 3, 4);
             txtColonia.Multiline = true;
             txtColonia.Name = "txtColonia";
-            txtColonia.Size = new Size(819, 26);
+            txtColonia.Size = new Size(817, 25);
             txtColonia.TabIndex = 33;
             txtColonia.Validating += txtColonia_Validating;
             // 
             // txtCalle
             // 
-            txtCalle.Location = new Point(302, 512);
+            txtCalle.Location = new Point(327, 511);
             txtCalle.Margin = new Padding(3, 4, 3, 4);
             txtCalle.Multiline = true;
             txtCalle.Name = "txtCalle";
-            txtCalle.Size = new Size(819, 26);
+            txtCalle.Size = new Size(817, 25);
             txtCalle.TabIndex = 34;
             txtCalle.Validating += txtCalle_Validating;
             // 
@@ -323,7 +319,7 @@
             // 
             lblGenero.AutoSize = true;
             lblGenero.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblGenero.Location = new Point(674, 176);
+            lblGenero.Location = new Point(699, 175);
             lblGenero.Name = "lblGenero";
             lblGenero.Size = new Size(74, 25);
             lblGenero.TabIndex = 36;
@@ -334,7 +330,7 @@
             cmbGenero.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbGenero.FormattingEnabled = true;
             cmbGenero.Items.AddRange(new object[] { "Masculino", "Femenino", "Otro" });
-            cmbGenero.Location = new Point(770, 174);
+            cmbGenero.Location = new Point(795, 173);
             cmbGenero.Margin = new Padding(3, 4, 3, 4);
             cmbGenero.Name = "cmbGenero";
             cmbGenero.Size = new Size(345, 28);
@@ -344,7 +340,7 @@
             // dtpFechaNacimiento
             // 
             dtpFechaNacimiento.Format = DateTimePickerFormat.Short;
-            dtpFechaNacimiento.Location = new Point(304, 176);
+            dtpFechaNacimiento.Location = new Point(327, 213);
             dtpFechaNacimiento.Margin = new Padding(3, 4, 3, 4);
             dtpFechaNacimiento.Name = "dtpFechaNacimiento";
             dtpFechaNacimiento.Size = new Size(234, 27);
@@ -353,19 +349,18 @@
             // 
             // cmbTipoSangre
             // 
-            cmbTipoSangre.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbTipoSangre.FormattingEnabled = true;
-            cmbTipoSangre.Items.AddRange(new object[] { "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-" });
-            cmbTipoSangre.Location = new Point(773, 248);
-            cmbTipoSangre.Margin = new Padding(3, 4, 3, 4);
-            cmbTipoSangre.Name = "cmbTipoSangre";
-            cmbTipoSangre.Size = new Size(345, 28);
-            cmbTipoSangre.TabIndex = 39;
+            txtTipoSangre.FormattingEnabled = true;
+            txtTipoSangre.Items.AddRange(new object[] { "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-" });
+            txtTipoSangre.Location = new Point(327, 318);
+            txtTipoSangre.Margin = new Padding(3, 4, 3, 4);
+            txtTipoSangre.Name = "txtTipoSangre";
+            txtTipoSangre.Size = new Size(345, 28);
+            txtTipoSangre.TabIndex = 39;
             // 
             // btnGuardar
             // 
             btnGuardar.BackColor = Color.FromArgb(244, 249, 252);
-            btnGuardar.Location = new Point(770, 545);
+            btnGuardar.Location = new Point(709, 544);
             btnGuardar.Margin = new Padding(3, 4, 3, 4);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(160, 36);
@@ -376,21 +371,20 @@
             // 
             // btnLimpiar
             // 
-            btnLimpiar.BackColor = Color.FromArgb(255, 205, 210);
-            btnLimpiar.Location = new Point(948, 545);
-            btnLimpiar.Margin = new Padding(3, 4, 3, 4);
-            btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(160, 36);
-            btnLimpiar.TabIndex = 41;
-            btnLimpiar.Text = "Limpiar";
-            btnLimpiar.UseVisualStyleBackColor = false;
-            btnLimpiar.Click += btnLimpiar_Click;
+            btnCancelar.BackColor = Color.FromArgb(255, 205, 210);
+            btnCancelar.Location = new Point(935, 544);
+            btnCancelar.Margin = new Padding(3, 4, 3, 4);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(200, 45);
+            btnCancelar.TabIndex = 41;
+            btnCancelar.Text = "Cancelar";
+            btnCancelar.UseVisualStyleBackColor = false;
             // 
             // lblAlergia
             // 
             lblAlergia.AutoSize = true;
             lblAlergia.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblAlergia.Location = new Point(130, 318);
+            lblAlergia.Location = new Point(133, 354);
             lblAlergia.Margin = new Padding(2, 0, 2, 0);
             lblAlergia.Name = "lblAlergia";
             lblAlergia.Size = new Size(74, 28);
@@ -399,10 +393,11 @@
             // 
             // txtAlergia
             // 
-            txtAlergia.Location = new Point(304, 318);
+            txtAlergia.Location = new Point(329, 353);
             txtAlergia.Margin = new Padding(2);
+            txtAlergia.Multiline = true;
             txtAlergia.Name = "txtAlergia";
-            txtAlergia.Size = new Size(817, 27);
+            txtAlergia.Size = new Size(817, 25);
             txtAlergia.TabIndex = 43;
             txtAlergia.Validating += txtAlergia_Validating;
             // 
@@ -430,14 +425,23 @@
             // 
             errorProvider1.ContainerControl = this;
             // 
+            // btnNuevoPaciente
+            // 
+            btnNuevoPaciente.BackColor = Color.FromArgb(244, 249, 252);
+            btnNuevoPaciente.Location = new Point(503, 544);
+            btnNuevoPaciente.Name = "btnNuevoPaciente";
+            btnNuevoPaciente.Size = new Size(200, 45);
+            btnNuevoPaciente.TabIndex = 44;
+            btnNuevoPaciente.Text = "Nuevo Paciente";
+            btnNuevoPaciente.UseVisualStyleBackColor = false;
+            // 
             // frmRegistroPacientes
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1315, 641);
-            Controls.Add(txtEstado);
-            Controls.Add(lblEstado);
+            Controls.Add(btnNuevoPaciente);
             Controls.Add(txtAlergia);
             Controls.Add(lblAlergia);
             Controls.Add(btnLimpiar);
@@ -515,8 +519,6 @@
 		private Button btnLimpiar;
         private Label lblAlergia;
         private TextBox txtAlergia;
-        private Label lblEstado;
-        private TextBox txtEstado;
-        private ErrorProvider errorProvider1;
+        private Button btnNuevoPaciente;
     }
 }

@@ -98,10 +98,10 @@
             // 
             btnMostrarContrasena.BackgroundImage = Properties.Resources.WhatsApp_Image_2026_06_23_at_2_04_16_PM;
             btnMostrarContrasena.BackgroundImageLayout = ImageLayout.Stretch;
-            btnMostrarContrasena.Location = new Point(654, 422);
+            btnMostrarContrasena.Location = new Point(561, 234);
             btnMostrarContrasena.Margin = new Padding(3, 4, 3, 4);
             btnMostrarContrasena.Name = "btnMostrarContrasena";
-            btnMostrarContrasena.Size = new Size(38, 42);
+            btnMostrarContrasena.Size = new Size(30, 30);
             btnMostrarContrasena.TabIndex = 5;
             btnMostrarContrasena.UseVisualStyleBackColor = true;
             // 
@@ -109,7 +109,7 @@
             // 
             btnSalir.BackColor = Color.FromArgb(255, 205, 210);
             btnSalir.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSalir.Location = new Point(353, 272);
+            btnSalir.Location = new Point(355, 288);
             btnSalir.Margin = new Padding(3, 4, 3, 4);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(160, 36);
@@ -122,7 +122,7 @@
             // 
             btnIniciarSesion.BackColor = Color.FromArgb(244, 249, 252);
             btnIniciarSesion.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnIniciarSesion.Location = new Point(170, 272);
+            btnIniciarSesion.Location = new Point(137, 288);
             btnIniciarSesion.Margin = new Padding(3, 4, 3, 4);
             btnIniciarSesion.Name = "btnIniciarSesion";
             btnIniciarSesion.Size = new Size(160, 36);

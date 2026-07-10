@@ -36,7 +36,8 @@
             btnConsulta = new Button();
             btnHistorialMedico = new Button();
             pnlContenido = new Panel();
-            btnSalir_Sistema = new Button();
+            btnSalir = new Button();
+            pcbAyuda = new Button();
             ((System.ComponentModel.ISupportInitialize)pcbSuperior).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pcbMenu).BeginInit();
             SuspendLayout();
@@ -48,7 +49,7 @@
             pcbSuperior.Location = new Point(-1, -2);
             pcbSuperior.Margin = new Padding(3, 4, 3, 4);
             pcbSuperior.Name = "pcbSuperior";
-            pcbSuperior.Size = new Size(1517, 140);
+            pcbSuperior.Size = new Size(1520, 140);
             pcbSuperior.TabIndex = 0;
             pcbSuperior.TabStop = false;
             // 
@@ -67,7 +68,7 @@
             // 
             btnInicio.BackgroundImage = Properties.Resources.Group_60;
             btnInicio.BackgroundImageLayout = ImageLayout.Stretch;
-            btnInicio.Location = new Point(30, 159);
+            btnInicio.Location = new Point(12, 144);
             btnInicio.Margin = new Padding(3, 4, 3, 4);
             btnInicio.Name = "btnInicio";
             btnInicio.Size = new Size(120, 60);
@@ -81,7 +82,7 @@
             // 
             btnRegistroPacientes.BackgroundImage = Properties.Resources.Group_61;
             btnRegistroPacientes.BackgroundImageLayout = ImageLayout.Stretch;
-            btnRegistroPacientes.Location = new Point(30, 227);
+            btnRegistroPacientes.Location = new Point(12, 227);
             btnRegistroPacientes.Margin = new Padding(3, 4, 3, 4);
             btnRegistroPacientes.Name = "btnRegistroPacientes";
             btnRegistroPacientes.Size = new Size(120, 60);
@@ -95,7 +96,7 @@
             // 
             btnAgendaCitas.BackgroundImage = Properties.Resources.Group_62;
             btnAgendaCitas.BackgroundImageLayout = ImageLayout.Stretch;
-            btnAgendaCitas.Location = new Point(30, 295);
+            btnAgendaCitas.Location = new Point(12, 310);
             btnAgendaCitas.Margin = new Padding(3, 4, 3, 4);
             btnAgendaCitas.Name = "btnAgendaCitas";
             btnAgendaCitas.Size = new Size(120, 60);
@@ -109,7 +110,7 @@
             // 
             btnConsulta.BackgroundImage = Properties.Resources.Group_64;
             btnConsulta.BackgroundImageLayout = ImageLayout.Stretch;
-            btnConsulta.Location = new Point(30, 363);
+            btnConsulta.Location = new Point(12, 393);
             btnConsulta.Margin = new Padding(3, 4, 3, 4);
             btnConsulta.Name = "btnConsulta";
             btnConsulta.Size = new Size(120, 60);
@@ -123,7 +124,7 @@
             // 
             btnHistorialMedico.BackgroundImage = Properties.Resources.Group_63;
             btnHistorialMedico.BackgroundImageLayout = ImageLayout.Stretch;
-            btnHistorialMedico.Location = new Point(30, 431);
+            btnHistorialMedico.Location = new Point(12, 476);
             btnHistorialMedico.Margin = new Padding(3, 4, 3, 4);
             btnHistorialMedico.Name = "btnHistorialMedico";
             btnHistorialMedico.Size = new Size(120, 60);
@@ -142,26 +143,35 @@
             pnlContenido.Size = new Size(1333, 686);
             pnlContenido.TabIndex = 7;
             // 
-            // btnSalir_Sistema
+            // btnSalir
             // 
-            btnSalir_Sistema.BackgroundImage = Properties.Resources.Group_65;
-            btnSalir_Sistema.BackgroundImageLayout = ImageLayout.Stretch;
-            btnSalir_Sistema.Location = new Point(30, 658);
-            btnSalir_Sistema.Margin = new Padding(2);
-            btnSalir_Sistema.Name = "btnSalir_Sistema";
-            btnSalir_Sistema.Size = new Size(120, 60);
-            btnSalir_Sistema.TabIndex = 8;
-            btnSalir_Sistema.UseVisualStyleBackColor = true;
-            btnSalir_Sistema.Click += btnSalir_Sistema_Click;
-            btnSalir_Sistema.MouseDown += btnGeneral_MouseDown;
-            btnSalir_Sistema.MouseUp += btnGeneral_MouseUp;
+            btnSalir.BackgroundImage = Properties.Resources.Group_65;
+            btnSalir.BackgroundImageLayout = ImageLayout.Stretch;
+            btnSalir.Location = new Point(12, 656);
+            btnSalir.Margin = new Padding(2);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(150, 75);
+            btnSalir.TabIndex = 8;
+            btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.MouseDown += btnGeneral_MouseDown;
+            btnSalir.MouseUp += btnGeneral_MouseUp;
+            // 
+            // pcbAyuda
+            // 
+            pcbAyuda.Location = new Point(12, 558);
+            pcbAyuda.Name = "pcbAyuda";
+            pcbAyuda.Size = new Size(150, 75);
+            pcbAyuda.TabIndex = 0;
+            pcbAyuda.Text = "Ayuda";
+            pcbAyuda.UseVisualStyleBackColor = true;
             // 
             // frmPrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1518, 819);
-            Controls.Add(btnSalir_Sistema);
+            Controls.Add(pcbAyuda);
+            Controls.Add(btnSalir);
             Controls.Add(pnlContenido);
             Controls.Add(btnHistorialMedico);
             Controls.Add(btnConsulta);
@@ -189,7 +199,7 @@
 		private Button btnConsulta;
 		private Button btnHistorialMedico;
 		private Panel pnlContenido;
-        private Button btnSalir_Sistema;
-        
+        private Button btnSalir;
+        private Button pcbAyuda;
     }
 }
