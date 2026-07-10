@@ -59,7 +59,12 @@ namespace BakupsDeVitalDent
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            var respuesta = MessageBox.Show($"¿Cerrar aplicación? ", "¡ADVERTENCIA!", MessageBoxButtons.YesNo, MessageBoxIcon.Stop);
+
+            if (respuesta == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }

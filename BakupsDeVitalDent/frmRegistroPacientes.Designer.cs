@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             txtNombre = new TextBox();
             lblRegistroPacientes = new Label();
             lblNombre = new Label();
@@ -56,31 +57,35 @@
             lblGenero = new Label();
             cmbGenero = new ComboBox();
             dtpFechaNacimiento = new DateTimePicker();
-            txtTipoSangre = new ComboBox();
+            cmbTipoSangre = new ComboBox();
             btnGuardar = new Button();
-            btnCancelar = new Button();
+            btnLimpiar = new Button();
             lblAlergia = new Label();
             txtAlergia = new TextBox();
+            lblEstado = new Label();
+            txtEstado = new TextBox();
+            errorProvider1 = new ErrorProvider(components);
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
             // txtNombre
             // 
             txtNombre.BackColor = Color.White;
-            txtNombre.Location = new Point(376, 92);
-            txtNombre.Margin = new Padding(4, 5, 4, 5);
+            txtNombre.Location = new Point(301, 74);
+            txtNombre.Margin = new Padding(3, 4, 3, 4);
             txtNombre.Multiline = true;
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(1020, 30);
+            txtNombre.Size = new Size(817, 25);
             txtNombre.TabIndex = 0;
+            txtNombre.Validating += txtNombre_Validating;
             // 
             // lblRegistroPacientes
             // 
             lblRegistroPacientes.AutoSize = true;
             lblRegistroPacientes.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblRegistroPacientes.Location = new Point(17, 15);
-            lblRegistroPacientes.Margin = new Padding(4, 0, 4, 0);
+            lblRegistroPacientes.Location = new Point(14, 12);
             lblRegistroPacientes.Name = "lblRegistroPacientes";
-            lblRegistroPacientes.Size = new Size(339, 45);
+            lblRegistroPacientes.Size = new Size(292, 37);
             lblRegistroPacientes.TabIndex = 9;
             lblRegistroPacientes.Text = "Registro de Pacientes";
             // 
@@ -88,10 +93,9 @@
             // 
             lblNombre.AutoSize = true;
             lblNombre.Font = new Font("Segoe UI", 11.25F);
-            lblNombre.Location = new Point(161, 90);
-            lblNombre.Margin = new Padding(4, 0, 4, 0);
+            lblNombre.Location = new Point(129, 72);
             lblNombre.Name = "lblNombre";
-            lblNombre.Size = new Size(98, 31);
+            lblNombre.Size = new Size(81, 25);
             lblNombre.TabIndex = 10;
             lblNombre.Text = "Nombre";
             // 
@@ -99,10 +103,9 @@
             // 
             lblApellidoPaterno.AutoSize = true;
             lblApellidoPaterno.Font = new Font("Segoe UI", 11.25F);
-            lblApellidoPaterno.Location = new Point(161, 134);
-            lblApellidoPaterno.Margin = new Padding(4, 0, 4, 0);
+            lblApellidoPaterno.Location = new Point(129, 107);
             lblApellidoPaterno.Name = "lblApellidoPaterno";
-            lblApellidoPaterno.Size = new Size(186, 31);
+            lblApellidoPaterno.Size = new Size(153, 25);
             lblApellidoPaterno.TabIndex = 11;
             lblApellidoPaterno.Text = "Apellido paterno";
             // 
@@ -110,10 +113,9 @@
             // 
             lblApellidoMaterno.AutoSize = true;
             lblApellidoMaterno.Font = new Font("Segoe UI", 11.25F);
-            lblApellidoMaterno.Location = new Point(159, 177);
-            lblApellidoMaterno.Margin = new Padding(4, 0, 4, 0);
+            lblApellidoMaterno.Location = new Point(127, 142);
             lblApellidoMaterno.Name = "lblApellidoMaterno";
-            lblApellidoMaterno.Size = new Size(192, 31);
+            lblApellidoMaterno.Size = new Size(158, 25);
             lblApellidoMaterno.TabIndex = 12;
             lblApellidoMaterno.Text = "Apellido materno";
             // 
@@ -121,10 +123,9 @@
             // 
             lblEdad.AutoSize = true;
             lblEdad.Font = new Font("Segoe UI", 11.25F);
-            lblEdad.Location = new Point(161, 220);
-            lblEdad.Margin = new Padding(4, 0, 4, 0);
+            lblEdad.Location = new Point(130, 214);
             lblEdad.Name = "lblEdad";
-            lblEdad.Size = new Size(66, 31);
+            lblEdad.Size = new Size(54, 25);
             lblEdad.TabIndex = 13;
             lblEdad.Text = "Edad";
             // 
@@ -132,10 +133,9 @@
             // 
             lblFechaNacimiento.AutoSize = true;
             lblFechaNacimiento.Font = new Font("Segoe UI", 11.25F);
-            lblFechaNacimiento.Location = new Point(159, 268);
-            lblFechaNacimiento.Margin = new Padding(4, 0, 4, 0);
+            lblFechaNacimiento.Location = new Point(112, 176);
             lblFechaNacimiento.Name = "lblFechaNacimiento";
-            lblFechaNacimiento.Size = new Size(225, 31);
+            lblFechaNacimiento.Size = new Size(186, 25);
             lblFechaNacimiento.TabIndex = 14;
             lblFechaNacimiento.Text = "Fecha de nacimiento";
             // 
@@ -143,10 +143,9 @@
             // 
             lblTelefono.AutoSize = true;
             lblTelefono.Font = new Font("Segoe UI", 11.25F);
-            lblTelefono.Location = new Point(161, 309);
-            lblTelefono.Margin = new Padding(4, 0, 4, 0);
+            lblTelefono.Location = new Point(129, 247);
             lblTelefono.Name = "lblTelefono";
-            lblTelefono.Size = new Size(100, 31);
+            lblTelefono.Size = new Size(84, 25);
             lblTelefono.TabIndex = 15;
             lblTelefono.Text = "Telefono";
             // 
@@ -154,10 +153,9 @@
             // 
             lblCorreoElectronico.AutoSize = true;
             lblCorreoElectronico.Font = new Font("Segoe UI", 11.25F);
-            lblCorreoElectronico.Location = new Point(161, 350);
-            lblCorreoElectronico.Margin = new Padding(4, 0, 4, 0);
+            lblCorreoElectronico.Location = new Point(129, 280);
             lblCorreoElectronico.Name = "lblCorreoElectronico";
-            lblCorreoElectronico.Size = new Size(201, 31);
+            lblCorreoElectronico.Size = new Size(169, 25);
             lblCorreoElectronico.TabIndex = 16;
             lblCorreoElectronico.Text = "Correo electronico";
             // 
@@ -165,10 +163,9 @@
             // 
             lblTipoSangre.AutoSize = true;
             lblTipoSangre.Font = new Font("Segoe UI", 11.25F);
-            lblTipoSangre.Location = new Point(161, 397);
-            lblTipoSangre.Margin = new Padding(4, 0, 4, 0);
+            lblTipoSangre.Location = new Point(637, 246);
             lblTipoSangre.Name = "lblTipoSangre";
-            lblTipoSangre.Size = new Size(166, 31);
+            lblTipoSangre.Size = new Size(137, 25);
             lblTipoSangre.TabIndex = 17;
             lblTipoSangre.Text = "Tipo de sangre";
             // 
@@ -176,10 +173,9 @@
             // 
             lblMunicipio.AutoSize = true;
             lblMunicipio.Font = new Font("Segoe UI", 11.25F);
-            lblMunicipio.Location = new Point(161, 477);
-            lblMunicipio.Margin = new Padding(4, 0, 4, 0);
+            lblMunicipio.Location = new Point(129, 382);
             lblMunicipio.Name = "lblMunicipio";
-            lblMunicipio.Size = new Size(117, 31);
+            lblMunicipio.Size = new Size(97, 25);
             lblMunicipio.TabIndex = 18;
             lblMunicipio.Text = "Municipio";
             // 
@@ -187,10 +183,9 @@
             // 
             lblCodigoPostal.AutoSize = true;
             lblCodigoPostal.Font = new Font("Segoe UI", 11.25F);
-            lblCodigoPostal.Location = new Point(159, 517);
-            lblCodigoPostal.Margin = new Padding(4, 0, 4, 0);
+            lblCodigoPostal.Location = new Point(127, 414);
             lblCodigoPostal.Name = "lblCodigoPostal";
-            lblCodigoPostal.Size = new Size(155, 31);
+            lblCodigoPostal.Size = new Size(128, 25);
             lblCodigoPostal.TabIndex = 19;
             lblCodigoPostal.Text = "Codigo Postal";
             // 
@@ -198,10 +193,9 @@
             // 
             lblLocalidad.AutoSize = true;
             lblLocalidad.Font = new Font("Segoe UI", 11.25F);
-            lblLocalidad.Location = new Point(161, 558);
-            lblLocalidad.Margin = new Padding(4, 0, 4, 0);
+            lblLocalidad.Location = new Point(129, 446);
             lblLocalidad.Name = "lblLocalidad";
-            lblLocalidad.Size = new Size(113, 31);
+            lblLocalidad.Size = new Size(93, 25);
             lblLocalidad.TabIndex = 20;
             lblLocalidad.Text = "Localidad";
             // 
@@ -209,10 +203,9 @@
             // 
             lblColonia.AutoSize = true;
             lblColonia.Font = new Font("Segoe UI", 11.25F);
-            lblColonia.Location = new Point(159, 599);
-            lblColonia.Margin = new Padding(4, 0, 4, 0);
+            lblColonia.Location = new Point(127, 479);
             lblColonia.Name = "lblColonia";
-            lblColonia.Size = new Size(91, 31);
+            lblColonia.Size = new Size(77, 25);
             lblColonia.TabIndex = 21;
             lblColonia.Text = "Colonia";
             // 
@@ -220,193 +213,236 @@
             // 
             lblCalle.AutoSize = true;
             lblCalle.Font = new Font("Segoe UI", 11.25F);
-            lblCalle.Location = new Point(161, 640);
-            lblCalle.Margin = new Padding(4, 0, 4, 0);
+            lblCalle.Location = new Point(129, 512);
             lblCalle.Name = "lblCalle";
-            lblCalle.Size = new Size(64, 31);
+            lblCalle.Size = new Size(54, 25);
             lblCalle.TabIndex = 22;
             lblCalle.Text = "Calle";
             // 
             // txtApellidoPaterno
             // 
-            txtApellidoPaterno.Location = new Point(377, 133);
-            txtApellidoPaterno.Margin = new Padding(4, 5, 4, 5);
+            txtApellidoPaterno.Location = new Point(302, 106);
+            txtApellidoPaterno.Margin = new Padding(3, 4, 3, 4);
             txtApellidoPaterno.Multiline = true;
             txtApellidoPaterno.Name = "txtApellidoPaterno";
-            txtApellidoPaterno.Size = new Size(1020, 30);
+            txtApellidoPaterno.Size = new Size(817, 25);
             txtApellidoPaterno.TabIndex = 23;
+            txtApellidoPaterno.Validating += txtApellidoPaterno_Validating;
             // 
             // txtApellidoMaterno
             // 
-            txtApellidoMaterno.Location = new Point(377, 177);
-            txtApellidoMaterno.Margin = new Padding(4, 5, 4, 5);
+            txtApellidoMaterno.Location = new Point(302, 142);
+            txtApellidoMaterno.Margin = new Padding(3, 4, 3, 4);
             txtApellidoMaterno.Multiline = true;
             txtApellidoMaterno.Name = "txtApellidoMaterno";
-            txtApellidoMaterno.Size = new Size(1020, 30);
+            txtApellidoMaterno.Size = new Size(817, 25);
             txtApellidoMaterno.TabIndex = 24;
+            txtApellidoMaterno.Validating += txtApellidoMaterno_Validating;
             // 
             // txtEdad
             // 
-            txtEdad.Location = new Point(377, 218);
-            txtEdad.Margin = new Padding(4, 5, 4, 5);
+            txtEdad.Location = new Point(301, 215);
+            txtEdad.Margin = new Padding(3, 4, 3, 4);
             txtEdad.Multiline = true;
             txtEdad.Name = "txtEdad";
-            txtEdad.Size = new Size(410, 30);
+            txtEdad.ReadOnly = true;
+            txtEdad.Size = new Size(329, 25);
             txtEdad.TabIndex = 25;
+            txtEdad.TabStop = false;
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(377, 309);
-            txtTelefono.Margin = new Padding(4, 5, 4, 5);
+            txtTelefono.Location = new Point(301, 246);
+            txtTelefono.Margin = new Padding(3, 4, 3, 4);
             txtTelefono.Multiline = true;
             txtTelefono.Name = "txtTelefono";
-            txtTelefono.Size = new Size(1020, 30);
+            txtTelefono.Size = new Size(329, 25);
             txtTelefono.TabIndex = 27;
+            txtTelefono.Validating += txtTelefono_Validating;
             // 
             // txtCorreoElectronico
             // 
-            txtCorreoElectronico.Location = new Point(377, 350);
-            txtCorreoElectronico.Margin = new Padding(4, 5, 4, 5);
+            txtCorreoElectronico.Location = new Point(302, 280);
+            txtCorreoElectronico.Margin = new Padding(3, 4, 3, 4);
             txtCorreoElectronico.Multiline = true;
             txtCorreoElectronico.Name = "txtCorreoElectronico";
-            txtCorreoElectronico.Size = new Size(1020, 30);
+            txtCorreoElectronico.Size = new Size(817, 25);
             txtCorreoElectronico.TabIndex = 28;
             // 
             // txtMunicipio
             // 
-            txtMunicipio.Location = new Point(380, 479);
-            txtMunicipio.Margin = new Padding(4, 5, 4, 5);
+            txtMunicipio.Location = new Point(304, 383);
+            txtMunicipio.Margin = new Padding(3, 4, 3, 4);
             txtMunicipio.Multiline = true;
             txtMunicipio.Name = "txtMunicipio";
-            txtMunicipio.Size = new Size(1020, 30);
+            txtMunicipio.Size = new Size(817, 25);
             txtMunicipio.TabIndex = 30;
+            txtMunicipio.Validating += txtMunicipio_Validating;
             // 
             // txtCodigoPostal
             // 
-            txtCodigoPostal.Location = new Point(380, 519);
-            txtCodigoPostal.Margin = new Padding(4, 5, 4, 5);
+            txtCodigoPostal.Location = new Point(304, 415);
+            txtCodigoPostal.Margin = new Padding(3, 4, 3, 4);
             txtCodigoPostal.Multiline = true;
             txtCodigoPostal.Name = "txtCodigoPostal";
-            txtCodigoPostal.Size = new Size(1020, 30);
+            txtCodigoPostal.Size = new Size(817, 25);
             txtCodigoPostal.TabIndex = 31;
+            txtCodigoPostal.Validating += txtCodigoPostal_Validating;
             // 
             // txtLocalidad
             // 
-            txtLocalidad.Location = new Point(376, 559);
-            txtLocalidad.Margin = new Padding(4, 5, 4, 5);
+            txtLocalidad.Location = new Point(301, 447);
+            txtLocalidad.Margin = new Padding(3, 4, 3, 4);
             txtLocalidad.Multiline = true;
             txtLocalidad.Name = "txtLocalidad";
-            txtLocalidad.Size = new Size(1020, 30);
+            txtLocalidad.Size = new Size(817, 25);
             txtLocalidad.TabIndex = 32;
+            txtLocalidad.Validating += txtLocalidad_Validating;
             // 
             // txtColonia
             // 
-            txtColonia.Location = new Point(380, 599);
-            txtColonia.Margin = new Padding(4, 5, 4, 5);
+            txtColonia.Location = new Point(304, 479);
+            txtColonia.Margin = new Padding(3, 4, 3, 4);
             txtColonia.Multiline = true;
             txtColonia.Name = "txtColonia";
-            txtColonia.Size = new Size(1023, 31);
+            txtColonia.Size = new Size(819, 26);
             txtColonia.TabIndex = 33;
+            txtColonia.Validating += txtColonia_Validating;
             // 
             // txtCalle
             // 
-            txtCalle.Location = new Point(377, 640);
-            txtCalle.Margin = new Padding(4, 5, 4, 5);
+            txtCalle.Location = new Point(302, 512);
+            txtCalle.Margin = new Padding(3, 4, 3, 4);
             txtCalle.Multiline = true;
             txtCalle.Name = "txtCalle";
-            txtCalle.Size = new Size(1023, 31);
+            txtCalle.Size = new Size(819, 26);
             txtCalle.TabIndex = 34;
+            txtCalle.Validating += txtCalle_Validating;
             // 
             // lblGenero
             // 
             lblGenero.AutoSize = true;
             lblGenero.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblGenero.Location = new Point(842, 220);
-            lblGenero.Margin = new Padding(4, 0, 4, 0);
+            lblGenero.Location = new Point(674, 176);
             lblGenero.Name = "lblGenero";
-            lblGenero.Size = new Size(88, 31);
+            lblGenero.Size = new Size(74, 25);
             lblGenero.TabIndex = 36;
             lblGenero.Text = "Genero";
             // 
             // cmbGenero
             // 
+            cmbGenero.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbGenero.FormattingEnabled = true;
             cmbGenero.Items.AddRange(new object[] { "Masculino", "Femenino", "Otro" });
-            cmbGenero.Location = new Point(963, 218);
-            cmbGenero.Margin = new Padding(4, 5, 4, 5);
+            cmbGenero.Location = new Point(770, 174);
+            cmbGenero.Margin = new Padding(3, 4, 3, 4);
             cmbGenero.Name = "cmbGenero";
-            cmbGenero.Size = new Size(430, 33);
+            cmbGenero.Size = new Size(345, 28);
             cmbGenero.TabIndex = 37;
+            cmbGenero.TabStop = false;
             // 
             // dtpFechaNacimiento
             // 
             dtpFechaNacimiento.Format = DateTimePickerFormat.Short;
-            dtpFechaNacimiento.Location = new Point(377, 268);
-            dtpFechaNacimiento.Margin = new Padding(4, 5, 4, 5);
+            dtpFechaNacimiento.Location = new Point(304, 176);
+            dtpFechaNacimiento.Margin = new Padding(3, 4, 3, 4);
             dtpFechaNacimiento.Name = "dtpFechaNacimiento";
-            dtpFechaNacimiento.Size = new Size(291, 31);
+            dtpFechaNacimiento.Size = new Size(234, 27);
             dtpFechaNacimiento.TabIndex = 38;
+            dtpFechaNacimiento.ValueChanged += dtpFechaNacimiento_ValueChanged;
             // 
-            // txtTipoSangre
+            // cmbTipoSangre
             // 
-            txtTipoSangre.FormattingEnabled = true;
-            txtTipoSangre.Items.AddRange(new object[] { "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-" });
-            txtTipoSangre.Location = new Point(377, 399);
-            txtTipoSangre.Margin = new Padding(4, 5, 4, 5);
-            txtTipoSangre.Name = "txtTipoSangre";
-            txtTipoSangre.Size = new Size(430, 33);
-            txtTipoSangre.TabIndex = 39;
+            cmbTipoSangre.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbTipoSangre.FormattingEnabled = true;
+            cmbTipoSangre.Items.AddRange(new object[] { "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-" });
+            cmbTipoSangre.Location = new Point(773, 248);
+            cmbTipoSangre.Margin = new Padding(3, 4, 3, 4);
+            cmbTipoSangre.Name = "cmbTipoSangre";
+            cmbTipoSangre.Size = new Size(345, 28);
+            cmbTipoSangre.TabIndex = 39;
             // 
             // btnGuardar
             // 
             btnGuardar.BackColor = Color.FromArgb(244, 249, 252);
-            btnGuardar.Location = new Point(963, 681);
-            btnGuardar.Margin = new Padding(4, 5, 4, 5);
+            btnGuardar.Location = new Point(770, 545);
+            btnGuardar.Margin = new Padding(3, 4, 3, 4);
             btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(200, 45);
+            btnGuardar.Size = new Size(160, 36);
             btnGuardar.TabIndex = 40;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = false;
+            btnGuardar.Click += btnGuardar_Click;
             // 
-            // btnCancelar
+            // btnLimpiar
             // 
-            btnCancelar.BackColor = Color.FromArgb(255, 205, 210);
-            btnCancelar.Location = new Point(1185, 681);
-            btnCancelar.Margin = new Padding(4, 5, 4, 5);
-            btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(200, 45);
-            btnCancelar.TabIndex = 41;
-            btnCancelar.Text = "Cancelar";
-            btnCancelar.UseVisualStyleBackColor = false;
+            btnLimpiar.BackColor = Color.FromArgb(255, 205, 210);
+            btnLimpiar.Location = new Point(948, 545);
+            btnLimpiar.Margin = new Padding(3, 4, 3, 4);
+            btnLimpiar.Name = "btnLimpiar";
+            btnLimpiar.Size = new Size(160, 36);
+            btnLimpiar.TabIndex = 41;
+            btnLimpiar.Text = "Limpiar";
+            btnLimpiar.UseVisualStyleBackColor = false;
+            btnLimpiar.Click += btnLimpiar_Click;
             // 
             // lblAlergia
             // 
             lblAlergia.AutoSize = true;
             lblAlergia.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblAlergia.Location = new Point(166, 443);
+            lblAlergia.Location = new Point(130, 318);
+            lblAlergia.Margin = new Padding(2, 0, 2, 0);
             lblAlergia.Name = "lblAlergia";
-            lblAlergia.Size = new Size(88, 32);
+            lblAlergia.Size = new Size(74, 28);
             lblAlergia.TabIndex = 42;
             lblAlergia.Text = "Alergia";
             // 
             // txtAlergia
             // 
-            txtAlergia.Location = new Point(380, 443);
+            txtAlergia.Location = new Point(304, 318);
+            txtAlergia.Margin = new Padding(2);
             txtAlergia.Name = "txtAlergia";
-            txtAlergia.Size = new Size(1020, 31);
+            txtAlergia.Size = new Size(817, 27);
             txtAlergia.TabIndex = 43;
+            txtAlergia.Validating += txtAlergia_Validating;
+            // 
+            // lblEstado
+            // 
+            lblEstado.AutoSize = true;
+            lblEstado.Font = new Font("Segoe UI", 11.25F);
+            lblEstado.Location = new Point(129, 350);
+            lblEstado.Name = "lblEstado";
+            lblEstado.Size = new Size(68, 25);
+            lblEstado.TabIndex = 44;
+            lblEstado.Text = "Estado";
+            // 
+            // txtEstado
+            // 
+            txtEstado.Location = new Point(302, 350);
+            txtEstado.Margin = new Padding(3, 4, 3, 4);
+            txtEstado.Multiline = true;
+            txtEstado.Name = "txtEstado";
+            txtEstado.Size = new Size(817, 25);
+            txtEstado.TabIndex = 45;
+            txtEstado.Validating += txtEstado_Validating;
+            // 
+            // errorProvider1
+            // 
+            errorProvider1.ContainerControl = this;
             // 
             // frmRegistroPacientes
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1644, 801);
+            ClientSize = new Size(1315, 641);
+            Controls.Add(txtEstado);
+            Controls.Add(lblEstado);
             Controls.Add(txtAlergia);
             Controls.Add(lblAlergia);
-            Controls.Add(btnCancelar);
+            Controls.Add(btnLimpiar);
             Controls.Add(btnGuardar);
-            Controls.Add(txtTipoSangre);
+            Controls.Add(cmbTipoSangre);
             Controls.Add(dtpFechaNacimiento);
             Controls.Add(cmbGenero);
             Controls.Add(lblGenero);
@@ -435,9 +471,11 @@
             Controls.Add(lblNombre);
             Controls.Add(lblRegistroPacientes);
             Controls.Add(txtNombre);
-            Margin = new Padding(4, 5, 4, 5);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frmRegistroPacientes";
             Text = "frmRegistroPacientes";
+            Load += frmRegistroPacientes_Load;
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -472,10 +510,13 @@
 		private Label lblGenero;
 		private ComboBox cmbGenero;
 		private DateTimePicker dtpFechaNacimiento;
-		private ComboBox txtTipoSangre;
+		private ComboBox cmbTipoSangre;
 		private Button btnGuardar;
-		private Button btnCancelar;
+		private Button btnLimpiar;
         private Label lblAlergia;
         private TextBox txtAlergia;
+        private Label lblEstado;
+        private TextBox txtEstado;
+        private ErrorProvider errorProvider1;
     }
 }
