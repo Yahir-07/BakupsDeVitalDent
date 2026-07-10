@@ -112,7 +112,7 @@
             btnSalir.Location = new Point(355, 288);
             btnSalir.Margin = new Padding(3, 4, 3, 4);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(200, 45);
+            btnSalir.Size = new Size(160, 36);
             btnSalir.TabIndex = 54;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = false;
@@ -125,7 +125,7 @@
             btnIniciarSesion.Location = new Point(137, 288);
             btnIniciarSesion.Margin = new Padding(3, 4, 3, 4);
             btnIniciarSesion.Name = "btnIniciarSesion";
-            btnIniciarSesion.Size = new Size(200, 45);
+            btnIniciarSesion.Size = new Size(160, 36);
             btnIniciarSesion.TabIndex = 53;
             btnIniciarSesion.Text = "Iniciar Sesión";
             btnIniciarSesion.UseVisualStyleBackColor = false;

@@ -80,15 +80,12 @@ namespace BakupsDeVitalDent
 
                     FROM TRABAJADOR T
 
-                    INNER JOIN EMPLEADO E
-                        ON T.ID_TRABAJADOR = E.ID_TRABAJADOR
-
                     LEFT JOIN DOCTOR D
-                        ON E.ID_EMPLEADO = D.ID_EMPLEADO
+                        ON T. ID_TRABAJADOR = D.ID_TRABAJADOR
 
                     WHERE
 
-                    T.CORREO_ELECTRONICO = @usuario
+                    T.USUARIO = @usuario
 
                     AND
 
@@ -122,7 +119,7 @@ namespace BakupsDeVitalDent
                             else
                             {
                                 MessageBox.Show(
-                                    "Correo o contraseña incorrectos.",
+                                    "Usuario o contraseña incorrectos.",
                                     "VitalDent",
                                     MessageBoxButtons.OK,
                                     MessageBoxIcon.Warning);

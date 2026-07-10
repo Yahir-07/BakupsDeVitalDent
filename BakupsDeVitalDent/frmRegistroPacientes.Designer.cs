@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             txtNombre = new TextBox();
             lblRegistroPacientes = new Label();
             lblNombre = new Label();
@@ -56,9 +57,9 @@
             lblGenero = new Label();
             cmbGenero = new ComboBox();
             dtpFechaNacimiento = new DateTimePicker();
-            txtTipoSangre = new ComboBox();
+            cmbTipoSangre = new ComboBox();
             btnGuardar = new Button();
-            btnCancelar = new Button();
+            btnLimpiar = new Button();
             lblAlergia = new Label();
             txtAlergia = new TextBox();
             btnNuevoPaciente = new Button();
@@ -73,6 +74,7 @@
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(817, 25);
             txtNombre.TabIndex = 0;
+            txtNombre.Validating += txtNombre_Validating;
             // 
             // lblRegistroPacientes
             // 
@@ -222,6 +224,7 @@
             txtApellidoPaterno.Name = "txtApellidoPaterno";
             txtApellidoPaterno.Size = new Size(817, 25);
             txtApellidoPaterno.TabIndex = 23;
+            txtApellidoPaterno.Validating += txtApellidoPaterno_Validating;
             // 
             // txtApellidoMaterno
             // 
@@ -231,6 +234,7 @@
             txtApellidoMaterno.Name = "txtApellidoMaterno";
             txtApellidoMaterno.Size = new Size(817, 25);
             txtApellidoMaterno.TabIndex = 24;
+            txtApellidoMaterno.Validating += txtApellidoMaterno_Validating;
             // 
             // txtEdad
             // 
@@ -240,6 +244,7 @@
             txtEdad.Name = "txtEdad";
             txtEdad.Size = new Size(329, 25);
             txtEdad.TabIndex = 25;
+            txtEdad.TabStop = false;
             // 
             // txtTelefono
             // 
@@ -249,6 +254,7 @@
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new Size(817, 25);
             txtTelefono.TabIndex = 27;
+            txtTelefono.Validating += txtTelefono_Validating;
             // 
             // txtCorreoElectronico
             // 
@@ -267,6 +273,7 @@
             txtMunicipio.Name = "txtMunicipio";
             txtMunicipio.Size = new Size(817, 25);
             txtMunicipio.TabIndex = 30;
+            txtMunicipio.Validating += txtMunicipio_Validating;
             // 
             // txtCodigoPostal
             // 
@@ -276,6 +283,7 @@
             txtCodigoPostal.Name = "txtCodigoPostal";
             txtCodigoPostal.Size = new Size(817, 25);
             txtCodigoPostal.TabIndex = 31;
+            txtCodigoPostal.Validating += txtCodigoPostal_Validating;
             // 
             // txtLocalidad
             // 
@@ -285,6 +293,7 @@
             txtLocalidad.Name = "txtLocalidad";
             txtLocalidad.Size = new Size(817, 25);
             txtLocalidad.TabIndex = 32;
+            txtLocalidad.Validating += txtLocalidad_Validating;
             // 
             // txtColonia
             // 
@@ -294,6 +303,7 @@
             txtColonia.Name = "txtColonia";
             txtColonia.Size = new Size(817, 25);
             txtColonia.TabIndex = 33;
+            txtColonia.Validating += txtColonia_Validating;
             // 
             // txtCalle
             // 
@@ -303,6 +313,7 @@
             txtCalle.Name = "txtCalle";
             txtCalle.Size = new Size(817, 25);
             txtCalle.TabIndex = 34;
+            txtCalle.Validating += txtCalle_Validating;
             // 
             // lblGenero
             // 
@@ -316,6 +327,7 @@
             // 
             // cmbGenero
             // 
+            cmbGenero.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbGenero.FormattingEnabled = true;
             cmbGenero.Items.AddRange(new object[] { "Masculino", "Femenino", "Otro" });
             cmbGenero.Location = new Point(795, 173);
@@ -323,6 +335,7 @@
             cmbGenero.Name = "cmbGenero";
             cmbGenero.Size = new Size(345, 28);
             cmbGenero.TabIndex = 37;
+            cmbGenero.TabStop = false;
             // 
             // dtpFechaNacimiento
             // 
@@ -332,8 +345,9 @@
             dtpFechaNacimiento.Name = "dtpFechaNacimiento";
             dtpFechaNacimiento.Size = new Size(234, 27);
             dtpFechaNacimiento.TabIndex = 38;
+            dtpFechaNacimiento.ValueChanged += dtpFechaNacimiento_ValueChanged;
             // 
-            // txtTipoSangre
+            // cmbTipoSangre
             // 
             txtTipoSangre.FormattingEnabled = true;
             txtTipoSangre.Items.AddRange(new object[] { "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-" });
@@ -349,12 +363,13 @@
             btnGuardar.Location = new Point(709, 544);
             btnGuardar.Margin = new Padding(3, 4, 3, 4);
             btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(200, 45);
+            btnGuardar.Size = new Size(160, 36);
             btnGuardar.TabIndex = 40;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = false;
+            btnGuardar.Click += btnGuardar_Click;
             // 
-            // btnCancelar
+            // btnLimpiar
             // 
             btnCancelar.BackColor = Color.FromArgb(255, 205, 210);
             btnCancelar.Location = new Point(935, 544);
@@ -384,6 +399,31 @@
             txtAlergia.Name = "txtAlergia";
             txtAlergia.Size = new Size(817, 25);
             txtAlergia.TabIndex = 43;
+            txtAlergia.Validating += txtAlergia_Validating;
+            // 
+            // lblEstado
+            // 
+            lblEstado.AutoSize = true;
+            lblEstado.Font = new Font("Segoe UI", 11.25F);
+            lblEstado.Location = new Point(129, 350);
+            lblEstado.Name = "lblEstado";
+            lblEstado.Size = new Size(68, 25);
+            lblEstado.TabIndex = 44;
+            lblEstado.Text = "Estado";
+            // 
+            // txtEstado
+            // 
+            txtEstado.Location = new Point(302, 350);
+            txtEstado.Margin = new Padding(3, 4, 3, 4);
+            txtEstado.Multiline = true;
+            txtEstado.Name = "txtEstado";
+            txtEstado.Size = new Size(817, 25);
+            txtEstado.TabIndex = 45;
+            txtEstado.Validating += txtEstado_Validating;
+            // 
+            // errorProvider1
+            // 
+            errorProvider1.ContainerControl = this;
             // 
             // btnNuevoPaciente
             // 
@@ -404,9 +444,9 @@
             Controls.Add(btnNuevoPaciente);
             Controls.Add(txtAlergia);
             Controls.Add(lblAlergia);
-            Controls.Add(btnCancelar);
+            Controls.Add(btnLimpiar);
             Controls.Add(btnGuardar);
-            Controls.Add(txtTipoSangre);
+            Controls.Add(cmbTipoSangre);
             Controls.Add(dtpFechaNacimiento);
             Controls.Add(cmbGenero);
             Controls.Add(lblGenero);
@@ -438,6 +478,8 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "frmRegistroPacientes";
             Text = "frmRegistroPacientes";
+            Load += frmRegistroPacientes_Load;
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -472,9 +514,9 @@
 		private Label lblGenero;
 		private ComboBox cmbGenero;
 		private DateTimePicker dtpFechaNacimiento;
-		private ComboBox txtTipoSangre;
+		private ComboBox cmbTipoSangre;
 		private Button btnGuardar;
-		private Button btnCancelar;
+		private Button btnLimpiar;
         private Label lblAlergia;
         private TextBox txtAlergia;
         private Button btnNuevoPaciente;

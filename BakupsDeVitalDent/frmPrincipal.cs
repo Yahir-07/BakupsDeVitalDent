@@ -80,5 +80,15 @@ namespace BakupsDeVitalDent
             Principal = new clsPrincipal();
             Principal.agregarAlContenedor(new frmHistorialMedico(), pnlContenido);
         }
+
+        private void btnSalir_Sistema_Click(object sender, EventArgs e)
+        {
+            var respuesta = MessageBox.Show($"¿Seguro que quieres salir del sistema? ", "¡ADVERTENCIA!", MessageBoxButtons.YesNo, MessageBoxIcon.Stop);
+
+            if (respuesta == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

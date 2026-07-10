@@ -71,7 +71,7 @@
             btnInicio.Location = new Point(12, 144);
             btnInicio.Margin = new Padding(3, 4, 3, 4);
             btnInicio.Name = "btnInicio";
-            btnInicio.Size = new Size(150, 75);
+            btnInicio.Size = new Size(120, 60);
             btnInicio.TabIndex = 2;
             btnInicio.UseVisualStyleBackColor = true;
             btnInicio.Click += btnInicio_Click;
@@ -85,7 +85,7 @@
             btnRegistroPacientes.Location = new Point(12, 227);
             btnRegistroPacientes.Margin = new Padding(3, 4, 3, 4);
             btnRegistroPacientes.Name = "btnRegistroPacientes";
-            btnRegistroPacientes.Size = new Size(150, 75);
+            btnRegistroPacientes.Size = new Size(120, 60);
             btnRegistroPacientes.TabIndex = 3;
             btnRegistroPacientes.UseVisualStyleBackColor = true;
             btnRegistroPacientes.Click += btnRegistroPacientes_Click;
@@ -99,7 +99,7 @@
             btnAgendaCitas.Location = new Point(12, 310);
             btnAgendaCitas.Margin = new Padding(3, 4, 3, 4);
             btnAgendaCitas.Name = "btnAgendaCitas";
-            btnAgendaCitas.Size = new Size(150, 75);
+            btnAgendaCitas.Size = new Size(120, 60);
             btnAgendaCitas.TabIndex = 4;
             btnAgendaCitas.UseVisualStyleBackColor = true;
             btnAgendaCitas.Click += btnAgendaCitas_Click;
@@ -113,7 +113,7 @@
             btnConsulta.Location = new Point(12, 393);
             btnConsulta.Margin = new Padding(3, 4, 3, 4);
             btnConsulta.Name = "btnConsulta";
-            btnConsulta.Size = new Size(150, 75);
+            btnConsulta.Size = new Size(120, 60);
             btnConsulta.TabIndex = 5;
             btnConsulta.UseVisualStyleBackColor = true;
             btnConsulta.Click += btnConsulta_Click;
@@ -127,7 +127,7 @@
             btnHistorialMedico.Location = new Point(12, 476);
             btnHistorialMedico.Margin = new Padding(3, 4, 3, 4);
             btnHistorialMedico.Name = "btnHistorialMedico";
-            btnHistorialMedico.Size = new Size(150, 75);
+            btnHistorialMedico.Size = new Size(120, 60);
             btnHistorialMedico.TabIndex = 6;
             btnHistorialMedico.UseVisualStyleBackColor = true;
             btnHistorialMedico.Click += btnHistorialMedico_Click;
