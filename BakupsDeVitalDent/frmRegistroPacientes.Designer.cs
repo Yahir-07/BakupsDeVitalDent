@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             txtNombre = new TextBox();
             lblRegistroPacientes = new Label();
             lblNombre = new Label();
@@ -401,30 +400,6 @@
             txtAlergia.TabIndex = 43;
             txtAlergia.Validating += txtAlergia_Validating;
             // 
-            // lblEstado
-            // 
-            lblEstado.AutoSize = true;
-            lblEstado.Font = new Font("Segoe UI", 11.25F);
-            lblEstado.Location = new Point(129, 350);
-            lblEstado.Name = "lblEstado";
-            lblEstado.Size = new Size(68, 25);
-            lblEstado.TabIndex = 44;
-            lblEstado.Text = "Estado";
-            // 
-            // txtEstado
-            // 
-            txtEstado.Location = new Point(302, 350);
-            txtEstado.Margin = new Padding(3, 4, 3, 4);
-            txtEstado.Multiline = true;
-            txtEstado.Name = "txtEstado";
-            txtEstado.Size = new Size(817, 25);
-            txtEstado.TabIndex = 45;
-            txtEstado.Validating += txtEstado_Validating;
-            // 
-            // errorProvider1
-            // 
-            errorProvider1.ContainerControl = this;
-            // 
             // btnNuevoPaciente
             // 
             btnNuevoPaciente.BackColor = Color.FromArgb(244, 249, 252);
@@ -479,7 +454,6 @@
             Name = "frmRegistroPacientes";
             Text = "frmRegistroPacientes";
             Load += frmRegistroPacientes_Load;
-            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
