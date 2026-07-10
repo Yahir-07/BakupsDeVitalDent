@@ -33,9 +33,9 @@
             txtBuscarPacientes = new TextBox();
             lblConsulta = new Label();
             lblDiagnostico = new Label();
-            txtNombrePaciente = new TextBox();
+            txtDiagnostico = new TextBox();
             lblTratamiento = new Label();
-            textBox1 = new TextBox();
+            txtTratamiento = new TextBox();
             lblMeicamentos = new Label();
             txtMedicamento = new TextBox();
             txtDosis = new TextBox();
@@ -102,15 +102,15 @@
             lblDiagnostico.TabIndex = 47;
             lblDiagnostico.Text = "Diagnostico";
             // 
-            // txtNombrePaciente
+            // txtDiagnostico
             // 
-            txtNombrePaciente.Location = new Point(223, 174);
-            txtNombrePaciente.Margin = new Padding(3, 4, 3, 4);
-            txtNombrePaciente.Multiline = true;
-            txtNombrePaciente.Name = "txtNombrePaciente";
-            txtNombrePaciente.PlaceholderText = "Diagnostico del paciente";
-            txtNombrePaciente.Size = new Size(817, 25);
-            txtNombrePaciente.TabIndex = 52;
+            txtDiagnostico.Location = new Point(223, 174);
+            txtDiagnostico.Margin = new Padding(3, 4, 3, 4);
+            txtDiagnostico.Multiline = true;
+            txtDiagnostico.Name = "txtDiagnostico";
+            txtDiagnostico.PlaceholderText = "Diagnostico del paciente";
+            txtDiagnostico.Size = new Size(817, 25);
+            txtDiagnostico.TabIndex = 52;
             // 
             // lblTratamiento
             // 
@@ -122,15 +122,15 @@
             lblTratamiento.TabIndex = 53;
             lblTratamiento.Text = "Tratamiento";
             // 
-            // textBox1
+            // txtTratamiento
             // 
-            textBox1.Location = new Point(223, 210);
-            textBox1.Margin = new Padding(3, 4, 3, 4);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Descripción del tratamiento ";
-            textBox1.Size = new Size(817, 71);
-            textBox1.TabIndex = 54;
+            txtTratamiento.Location = new Point(223, 210);
+            txtTratamiento.Margin = new Padding(3, 4, 3, 4);
+            txtTratamiento.Multiline = true;
+            txtTratamiento.Name = "txtTratamiento";
+            txtTratamiento.PlaceholderText = "Descripción del tratamiento ";
+            txtTratamiento.Size = new Size(817, 71);
+            txtTratamiento.TabIndex = 54;
             // 
             // lblMeicamentos
             // 
@@ -250,9 +250,9 @@
             Controls.Add(txtDosis);
             Controls.Add(txtMedicamento);
             Controls.Add(lblMeicamentos);
-            Controls.Add(textBox1);
+            Controls.Add(txtTratamiento);
             Controls.Add(lblTratamiento);
-            Controls.Add(txtNombrePaciente);
+            Controls.Add(txtDiagnostico);
             Controls.Add(lblDiagnostico);
             Controls.Add(lblConsulta);
             Controls.Add(pcbLupa);
@@ -273,9 +273,9 @@
 		private TextBox txtBuscarPacientes;
 		private Label lblConsulta;
         private Label lblDiagnostico;
-        private TextBox txtNombrePaciente;
+        private TextBox txtDiagnostico;
         private Label lblTratamiento;
-        private TextBox textBox1;
+        private TextBox txtTratamiento;
         private Label lblMeicamentos;
         private TextBox txtMedicamento;
         private TextBox txtDosis;

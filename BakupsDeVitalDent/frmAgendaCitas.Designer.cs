@@ -148,7 +148,7 @@
             txtMotivoCita.Margin = new Padding(3, 4, 3, 4);
             txtMotivoCita.Multiline = true;
             txtMotivoCita.Name = "txtMotivoCita";
-            txtMotivoCita.Size = new Size(817, 81);
+            txtMotivoCita.Size = new Size(817, 80);
             txtMotivoCita.TabIndex = 47;
             // 
             // btnCancelar
@@ -251,7 +251,7 @@
             cmbEstadoCita.Items.AddRange(new object[] { "Activo", "Cancelado" });
             cmbEstadoCita.Location = new Point(386, 577);
             cmbEstadoCita.Name = "cmbEstadoCita";
-            cmbEstadoCita.Size = new Size(151, 28);
+            cmbEstadoCita.Size = new Size(345, 28);
             cmbEstadoCita.TabIndex = 58;
             // 
             // frmAgendaCitas

@@ -31,7 +31,7 @@
             lblBienvenido = new Label();
             dgvRecientes = new DataGridView();
             btnNuevoPaciente = new Button();
-            button1 = new Button();
+            btnEliminarPaciente = new Button();
             button2 = new Button();
             btnActualizar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvRecientes).BeginInit();
@@ -52,7 +52,7 @@
             // 
             dgvRecientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvRecientes.Location = new Point(145, 93);
-            dgvRecientes.Margin = new Padding(2, 2, 2, 2);
+            dgvRecientes.Margin = new Padding(2);
             dgvRecientes.Name = "dgvRecientes";
             dgvRecientes.RowHeadersWidth = 62;
             dgvRecientes.Size = new Size(1062, 454);
@@ -68,15 +68,15 @@
             btnNuevoPaciente.Text = "Nuevo Paciente";
             btnNuevoPaciente.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnEliminarPaciente
             // 
-            button1.BackColor = Color.FromArgb(244, 249, 252);
-            button1.Location = new Point(1011, 552);
-            button1.Name = "button1";
-            button1.Size = new Size(200, 45);
-            button1.TabIndex = 46;
-            button1.Text = "Eliminar Paciente";
-            button1.UseVisualStyleBackColor = false;
+            btnEliminarPaciente.BackColor = Color.FromArgb(255, 205, 210);
+            btnEliminarPaciente.Location = new Point(1011, 552);
+            btnEliminarPaciente.Name = "btnEliminarPaciente";
+            btnEliminarPaciente.Size = new Size(200, 45);
+            btnEliminarPaciente.TabIndex = 46;
+            btnEliminarPaciente.Text = "Eliminar Paciente";
+            btnEliminarPaciente.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -106,11 +106,11 @@
             ClientSize = new Size(1315, 627);
             Controls.Add(btnActualizar);
             Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnEliminarPaciente);
             Controls.Add(btnNuevoPaciente);
             Controls.Add(dgvRecientes);
             Controls.Add(lblBienvenido);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "frmInicio";
             Text = "Inicio";
             ((System.ComponentModel.ISupportInitialize)dgvRecientes).EndInit();
@@ -123,7 +123,7 @@
         private Label lblBienvenido;
         private DataGridView dgvRecientes;
         private Button btnNuevoPaciente;
-        private Button button1;
+        private Button btnEliminarPaciente;
         private Button button2;
         private Button btnActualizar;
     }
